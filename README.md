@@ -1,7 +1,9 @@
 # Forensic Anti-patterns in Machine Learning Engineering 
 
-## Farzana Ahmed Bhuiyan and Akond Rahman 
+## CODECRAFTERS-FALL2024-SQA
 
-### Details 
+##Team Members:
 
-> Demo video for the work in progress: https://drive.google.com/file/d/14lcIbDCIfHu8chqEOS7IX-yEckDFjT8z/view?usp=sharing
+##Pavan Kalyan Annadevara
+##Koushik Govardhanam
+##Mounika Ghanta
