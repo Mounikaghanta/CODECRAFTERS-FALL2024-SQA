@@ -2,8 +2,10 @@
 
 ## CODECRAFTERS-FALL2024-SQA
 
-##Team Members:
+#Team Members:
 
-##Pavan Kalyan Annadevara
-##Koushik Govardhanam
-##Mounika Ghanta
+1.Pavan Kalyan Annadevara
+
+2.Koushik Govardhanam
+
+3.Mounika Ghanta
