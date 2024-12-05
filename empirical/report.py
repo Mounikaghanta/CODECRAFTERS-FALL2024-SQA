@@ -1,7 +1,6 @@
 '''
-Farzana Ahamed Bhuiyan 
-Dec 3, 2020
-Report Frequency: RQ2
+code craftersx
+
 '''
 import numpy as np 
 import os 
