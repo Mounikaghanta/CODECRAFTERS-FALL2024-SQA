@@ -1,4 +1,4 @@
-mport os
+import os
 import ast
 import pandas as pd
 import numpy as np
@@ -6,10 +6,14 @@ import time
 import datetime
 from unittest.mock import patch
 from myLogger import giveMeLoggingObject
+import csv
 
 logger = giveMeLoggingObject()
 
-# Method 1 - checkIfParsablePython from: provided code 3
+# Global bug reports list
+bug_reports = []
+
+# Method 1 - checkIfParsablePython
 def checkIfParsablePython(pyFile):
     flag = True
     try:
@@ -40,8 +44,9 @@ def fuzz_checkIfParsablePython():
             logger.info(f"Test Case {i + 1}: Input={file_}, Parsable={result}")
         except Exception as e:
             logger.error(f"Test Case {i + 1}: Input={file_}, Exception={e}")
+            bug_reports.append({"Method": "checkIfParsablePython", "Input": file_, "Error": str(e)})
 
-# Method 2 - getFileLength from: provided code 2
+# Method 2 - getFileLength
 def getFileLength(file_):
     return sum(1 for line in open(file_, encoding="latin-1"))
 
@@ -69,8 +74,9 @@ def fuzz_getFileLength():
             logger.info(f"Test Case {i + 1}: Input={file_}, Lines={result}")
         except Exception as e:
             logger.error(f"Test Case {i + 1}: Input={file_}, Exception={e}")
+            bug_reports.append({"Method": "getFileLength", "Input": file_, "Error": str(e)})
 
-# Method 3 - dumpContentIntoFile from: provided code 2
+# Method 3 - dumpContentIntoFile
 def dumpContentIntoFile(strP, fileP):
     with open(fileP, "w") as fileToWrite:
         fileToWrite.write(strP)
@@ -97,11 +103,12 @@ def fuzz_dumpContentIntoFile():
             logger.info(f"Test Case {i + 1}: content={content}, file_path={file_path}, Size={result} bytes")
         except Exception as e:
             logger.error(f"Test Case {i + 1}: content={content}, file_path={file_name}, Exception={e}")
+            bug_reports.append({"Method": "dumpContentIntoFile", "Input": file_name, "Error": str(e)})
     for file in os.listdir(fuzz_dir):
         os.remove(os.path.join(fuzz_dir, file))
     os.rmdir(fuzz_dir)
 
-# Method 4 - getPythonCount from: provided code 3
+# Method 4 - getPythonCount
 def getPythonCount(path2dir):
     usageCount = 0
     for root_, _, filenames in os.walk(path2dir):
@@ -130,11 +137,12 @@ def fuzz_getPythonCount():
             logger.info(f"Test Case {i + 1}: dir_path={dir_path}, Python File Count={result}")
         except Exception as e:
             logger.error(f"Test Case {i + 1}: dir_path={dir_path}, Exception={e}")
+            bug_reports.append({"Method": "getPythonCount", "Input": dir_path, "Error": str(e)})
     for file in os.listdir(fuzz_dir):
         os.remove(os.path.join(fuzz_dir, file))
     os.rmdir(fuzz_dir)
 
-# Method 5 - giveTimeStamp from: provided code 2
+# Method 5 - giveTimeStamp
 class constants:
     TIME_FORMAT = "%Y-%m-%d %H:%M:%S"
 
@@ -159,6 +167,19 @@ def fuzz_giveTimeStamp():
                 logger.info(f"Test Case {i + 1}: Mocked time={mocked_time}, Output={result}")
             except Exception as e:
                 logger.error(f"Test Case {i + 1}: Mocked time={mocked_time}, Exception={e}")
+                bug_reports.append({"Method": "giveTimeStamp", "Input": mocked_time, "Error": str(e)})
+
+# Save bug reports to a CSV file
+def save_bug_reports():
+    if bug_reports:
+        with open("fuzz_report.csv", "w", newline="") as csvfile:
+            fieldnames = ["Method", "Input", "Error"]
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(bug_reports)
+        logger.info("Bug report saved to fuzz_report.csv")
+    else:
+        logger.info("No bugs discovered during fuzzing.")
 
 if __name__ == "__main__":
     fuzz_checkIfParsablePython()
@@ -166,3 +187,4 @@ if __name__ == "__main__":
     fuzz_dumpContentIntoFile()
     fuzz_getPythonCount()
     fuzz_giveTimeStamp()
+    save_bug_reports()
