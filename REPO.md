@@ -1,4 +1,4 @@
-![Aspose Words a24c1642-e5ec-4825-8036-44a419b48d93 001](https://github.com/user-attachments/assets/962a4fd9-5669-4594-8b06-f14aeffe7792)
+https://github.com/user-attachments/assets/962a4fd9-5669-4594-8b06-f14aeffe7792)
 
 
 **Software Quality Assurance ![ref1](COMP 6710)** 
