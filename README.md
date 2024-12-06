@@ -7,3 +7,4 @@
 2. Pavan Kalyan Annadevara - pza0045
 3. Koushik Govardhanam - kzg0099
 
+Please refer CODECRAFTERS.PDF for detailed project report.
