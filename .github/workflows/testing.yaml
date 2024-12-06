@@ -23,42 +23,46 @@ jobs:
         with:
           python-version: '3.9'
 
-      # Step 3: Check for and install dependencies
+      # Step 3: Install dependencies
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          if [ -f requirements.txt ] && [ -s requirements.txt ]; then
+          if [[ -f requirements.txt && -s requirements.txt ]]; then
             pip install -r requirements.txt
           else
             echo "No dependencies to install (requirements.txt is missing or empty)."
+          fi
 
-      # Step 4: Run the fuzz tests
+      # Step 4: Run Fuzz Tests
       - name: Run Fuzz Tests
         run: |
-          if [ -f fuzz.py ]; then
+          if [[ -f fuzz.py ]]; then
             python fuzz.py
           else
             echo "fuzz.py not found, cannot run tests."
             exit 1
+          fi
 
-      # Step 5: Display the contents of the fuzz report
+      # Step 5: Display Fuzz Report
       - name: Display Fuzz Report
-        if: always()  # Always run to display logs even on failure
+        if: always()
         run: |
-          if [ -f fuzz_report.csv ]; then
+          if [[ -f fuzz_report.csv ]]; then
+            echo "Fuzz Report Found:"
             cat fuzz_report.csv
           else
-            echo "fuzz_report.csv not found, no bugs reported."
+            echo "No fuzz_report.csv found, no bugs reported."
+          fi
 
       # Step 6: Upload the fuzz report as an artifact
       - name: Upload Fuzz Report
-        if: always()  # Always upload the report even if the tests fail
+        if: always()
         uses: actions/upload-artifact@v3
         with:
           name: fuzz-report
           path: fuzz_report.csv
 
-      # Step 7: Save logs for debugging (optional)
+      # Step 7: Upload Logs
       - name: Upload Logs
         if: always()
         uses: actions/upload-artifact@v3
