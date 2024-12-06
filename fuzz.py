@@ -1,191 +1,91 @@
-import os
+import random
+import string
 import ast
-import pandas as pd
-import numpy as np
-import datetime
+import os
 import time
 import datetime
 from unittest.mock import patch
-from myLogger import giveMeLoggingObject
-import csv
+from myLogger import log_forensics, save_bug_reports
 
-logger = giveMeLoggingObject()
+# Utility Functions
+def random_string(length=10):
+    """Generate a random string of a given length."""
+    return ''.join(random.choices(string.ascii_letters + string.digits + string.punctuation, k=length))
 
-# Global bug reports list
-bug_reports = []
-
-# Method 1 - checkIfParsablePython
+# Method 1 - Check if Parsable Python
 def checkIfParsablePython(pyFile):
     flag = True
     try:
         full_tree = ast.parse(open(pyFile).read())
-    except (SyntaxError, UnicodeDecodeError) as err_:
+    except (SyntaxError, UnicodeDecodeError, FileNotFoundError) as err_:
         flag = False
+        raise err_
     return flag
 
-# Fuzzing Method 1: checkIfParsablePython
 def fuzz_checkIfParsablePython():
-    logger.info("=== Fuzzing checkIfParsablePython ===")
-    test_cases = [
-        "valid_script.py",  # Valid Python script
-        "invalid_script.py",  # Invalid Python script
-        "non_existent_file.py",  # Non-existent file
-        None,  # None as input
-        "",  # Empty string as input
-    ]
-    for i, file_ in enumerate(test_cases):
+    test_cases = ["valid_script.py", "invalid_script.py", "non_existent_file.py", None, ""]
+    for file_ in test_cases:
         try:
-            if file_ and "valid" in file_:
+            if file_ == "valid_script.py":
                 with open(file_, "w") as f:
                     f.write("print('Hello, world!')")
-            elif file_ and "invalid" in file_:
+            elif file_ == "invalid_script.py":
                 with open(file_, "w") as f:
-                    f.write("print('Hello, world!'")
+                    f.write("print('Hello, world!'")  # Syntax error
             result = checkIfParsablePython(file_)
-            logger.info(f"Test Case {i + 1}: Input={file_}, Parsable={result}")
+            log_forensics("checkIfParsablePython", {"file": file_}, output=result)
         except Exception as e:
-            logger.error(f"Test Case {i + 1}: Input={file_}, Exception={e}")
-            bug_reports.append({"Method": "checkIfParsablePython", "Input": file_, "Error": str(e)})
+            log_forensics("checkIfParsablePython", {"file": file_}, error=str(e))
 
-# Method 2 - getFileLength
-def getFileLength(file_):
-    return sum(1 for line in open(file_, encoding="latin-1"))
+# Method 2 - Join Strings
+def fuzz_join():
+    test_list = [random.choice([random_string(5), None, 123]) for _ in range(5)]
+    separator = random.choice(["-", " ", None])
+    try:
+        result = separator.join(test_list)
+        log_forensics("str.join", {"list": test_list, "separator": separator}, output=result)
+    except Exception as e:
+        log_forensics("str.join", {"list": test_list, "separator": separator}, error=str(e))
 
-# Fuzzing Method 2: getFileLength
-def fuzz_getFileLength():
-    logger.info("=== Fuzzing getFileLength ===")
-    test_cases = [
-        "empty_file.txt",  # Empty file
-        "small_file.txt",  # Small file
-        "large_file.txt",  # Large file
-        "non_existent_file.txt",  # Non-existent file
-        None,  # None as input
-    ]
-    for i, file_ in enumerate(test_cases):
-        try:
-            if file_ and "file" in file_:
-                with open(file_, "w") as f:
-                    if "empty" in file_:
-                        pass
-                    elif "small" in file_:
-                        f.write("Line1\nLine2\n")
-                    elif "large" in file_:
-                        f.write("Line\n" * 1000)
-            result = getFileLength(file_)
-            logger.info(f"Test Case {i + 1}: Input={file_}, Lines={result}")
-        except Exception as e:
-            logger.error(f"Test Case {i + 1}: Input={file_}, Exception={e}")
-            bug_reports.append({"Method": "getFileLength", "Input": file_, "Error": str(e)})
+# Method 3 - List Pop
+def fuzz_pop():
+    test_list = [random.randint(0, 100) for _ in range(random.randint(0, 10))]
+    index = random.choice([random.randint(-10, 10), None])
+    try:
+        result = test_list.pop(index)
+        log_forensics("list.pop", {"list": test_list, "index": index}, output=result)
+    except Exception as e:
+        log_forensics("list.pop", {"list": test_list, "index": index}, error=str(e))
 
-# Method 3 - dumpContentIntoFile
-def dumpContentIntoFile(strP, fileP):
-    with open(fileP, "w") as fileToWrite:
-        fileToWrite.write(strP)
-    return os.stat(fileP).st_size
+# Method 4 - Dictionary Update
+def fuzz_update():
+    test_dict = {random_string(5): random.randint(0, 100) for _ in range(5)}
+    updates = random.choice([{random_string(5): random.randint(0, 100)}, None, [("key", "value")]])
+    try:
+        test_dict.update(updates)
+        log_forensics("dict.update", {"dict": test_dict, "updates": updates}, output=test_dict)
+    except Exception as e:
+        log_forensics("dict.update", {"dict": test_dict, "updates": updates}, error=str(e))
 
-# Fuzzing Method 3: dumpContentIntoFile
-def fuzz_dumpContentIntoFile():
-    logger.info("=== Fuzzing dumpContentIntoFile ===")
-    fuzz_dir = "fuzz_test"
-    os.makedirs(fuzz_dir, exist_ok=True)
-    test_cases = [
-        ("Hello, World!", "valid.txt"),  # Valid content and file path
-        ("", "empty.txt"),  # Empty content
-        ("LongContent" * 100, "long_content.txt"),  # Long content
-        (None, "null_content.txt"),  # None as content
-        ("Hello", ""),  # Empty file path
-    ]
-    for i, (content, file_name) in enumerate(test_cases):
-        try:
-            file_path = os.path.join(fuzz_dir, file_name)
-            if not file_name:
-                raise ValueError("File name cannot be empty.")
-            result = dumpContentIntoFile(content, file_path)
-            logger.info(f"Test Case {i + 1}: content={content}, file_path={file_path}, Size={result} bytes")
-        except Exception as e:
-            logger.error(f"Test Case {i + 1}: content={content}, file_path={file_name}, Exception={e}")
-            bug_reports.append({"Method": "dumpContentIntoFile", "Input": file_name, "Error": str(e)})
-    for file in os.listdir(fuzz_dir):
-        os.remove(os.path.join(fuzz_dir, file))
-    os.rmdir(fuzz_dir)
-
-# Method 4 - getPythonCount
-def getPythonCount(path2dir):
-    usageCount = 0
-    for root_, _, filenames in os.walk(path2dir):
-        usageCount += sum(1 for file_ in filenames if file_.endswith(".py"))
-    return usageCount
-
-# Fuzzing Method 4: getPythonCount
-def fuzz_getPythonCount():
-    logger.info("=== Fuzzing getPythonCount ===")
-    fuzz_dir = "fuzz_test"
-    os.makedirs(fuzz_dir, exist_ok=True)
-    test_cases = [
-        (fuzz_dir, []),  # Empty directory
-        (fuzz_dir, ["file1.py", "file2.py", "file3.txt"]),  # Mixed files
-        ("non_existent_directory", None),  # Non-existent directory
-        (None, None),  # None as directory
-        ("", None),  # Empty string as directory
-    ]
-    for i, (dir_path, files) in enumerate(test_cases):
-        try:
-            if dir_path and files:
-                for file in files:
-                    with open(os.path.join(dir_path, file), "w") as f:
-                        f.write("print('Hello, world!')")
-            result = getPythonCount(dir_path)
-            logger.info(f"Test Case {i + 1}: dir_path={dir_path}, Python File Count={result}")
-        except Exception as e:
-            logger.error(f"Test Case {i + 1}: dir_path={dir_path}, Exception={e}")
-            bug_reports.append({"Method": "getPythonCount", "Input": dir_path, "Error": str(e)})
-    for file in os.listdir(fuzz_dir):
-        os.remove(os.path.join(fuzz_dir, file))
-    os.rmdir(fuzz_dir)
-
-# Method 5 - giveTimeStamp
-class constants:
-    TIME_FORMAT = "%Y-%m-%d %H:%M:%S"
-
-def giveTimeStamp():
-    tsObj = time.time()
-    return datetime.datetime.fromtimestamp(tsObj).strftime(constants.TIME_FORMAT)
-
-# Fuzzing Method 5: giveTimeStamp
-def fuzz_giveTimeStamp():
-    logger.info("=== Fuzzing giveTimeStamp ===")
-    test_cases = [
-        0,  # Unix epoch start
-        2**31 - 1,  # Maximum 32-bit integer timestamp
-        2**31,  # After 32-bit integer limit
-        -1,  # Negative timestamp
-        time.time(),  # Current time
-    ]
-    for i, mocked_time in enumerate(test_cases):
-        with patch("time.time", return_value=mocked_time):
-            try:
-                result = giveTimeStamp()
-                logger.info(f"Test Case {i + 1}: Mocked time={mocked_time}, Output={result}")
-            except Exception as e:
-                logger.error(f"Test Case {i + 1}: Mocked time={mocked_time}, Exception={e}")
-                bug_reports.append({"Method": "giveTimeStamp", "Input": mocked_time, "Error": str(e)})
-
-# Save bug reports to a CSV file
-def save_bug_reports():
-    if bug_reports:
-        with open("fuzz_report.csv", "w", newline=","%Y-%m-%d %H:%M:%S"") as csvfile:
-            fieldnames = ["Method", "Input", "Error", "Timestamp"]
-            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-            writer.writeheader()
-            writer.writerows(bug_reports)
-        logger.info("Bug report saved to fuzz_report.csv")
-    else:
-        logger.info("No bugs discovered during fuzzing.")
+# Method 5 - Float Conversion
+def fuzz_float():
+    test_string = random.choice([random_string(), str(random.uniform(-1000, 1000)), None, "123.456"])
+    try:
+        result = float(test_string)
+        log_forensics("float", {"input": test_string}, output=result)
+    except Exception as e:
+        log_forensics("float", {"input": test_string}, error=str(e))
 
 if __name__ == "__main__":
-    fuzz_checkIfParsablePython()
-    fuzz_getFileLength()
-    fuzz_dumpContentIntoFile()
-    fuzz_getPythonCount()
-    fuzz_giveTimeStamp()
+    # Number of fuzz tests per method
+    num_tests = 100
+
+    for _ in range(num_tests):
+        fuzz_checkIfParsablePython()
+        fuzz_join()
+        fuzz_pop()
+        fuzz_update()
+        fuzz_float()
+
     save_bug_reports()
+    print("Fuzz testing completed. Check 'fuzz_forensics.log' and 'fuzz_report.csv'.")

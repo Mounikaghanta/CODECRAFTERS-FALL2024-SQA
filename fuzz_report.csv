@@ -1,8 +1,640 @@
-Method,Input,Error
-checkIfParsablePython,non_existent_file.py,[Errno 2] No such file or directory: 'non_existent_file.py'
-checkIfParsablePython,,"expected str, bytes or os.PathLike object, not NoneType"
-checkIfParsablePython,,[Errno 2] No such file or directory: ''
-getFileLength,,"expected str, bytes or os.PathLike object, not NoneType"
-dumpContentIntoFile,null_content.txt,"write() argument must be str, not None"
-dumpContentIntoFile,,File name cannot be empty.
-getPythonCount,,"expected str, bytes or os.PathLike object, not NoneType"
+Method,Input,Error,Timestamp
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, None, None, None, 123], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [39, 60, 82], 'index': -10}",pop index out of range,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, None, 123, 'qi7z{', None], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+dict.update,"{'dict': {'oFn#Q': 40, 'H:01W': 25, '[cT~q': 20, 'dYr.a': 68, '6?H.u': 96}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, '[#QOA', '@uBzd', 'fSR;%', '^:Q4b'], 'separator': '-'}","sequence item 0: expected str instance, NoneType found",2024-12-05 21:46:49
+list.pop,"{'list': [98, 65, 86], 'index': -9}",pop index out of range,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['#>9x;', 123, None, '}G~4N', 123], 'separator': '-'}","sequence item 1: expected str instance, int found",2024-12-05 21:46:49
+list.pop,"{'list': [10], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+dict.update,"{'dict': {'K/$-j': 8, '^xIM,': 36, ""sNz>'"": 71, 'V-?0h': 62, 'LM(""s': 93}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+float,{'input': '[N)K4>z@)+'},could not convert string to float: '[N)K4>z@)+',2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, None, None, 123, None], 'separator': ' '}","sequence item 0: expected str instance, NoneType found",2024-12-05 21:46:49
+list.pop,"{'list': [97], 'index': 4}",pop index out of range,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, 'JJdb~', None, '`x{5s', None], 'separator': '-'}","sequence item 0: expected str instance, NoneType found",2024-12-05 21:46:49
+list.pop,"{'list': [], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+dict.update,"{'dict': {'-M,PZ': 76, 'Gwl]b': 66, '3rpC&': 55, '!zR[k': 21, '5I|\\i': 87}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+float,{'input': None},"float() argument must be a string or a real number, not 'NoneType'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['J[?FH', '&^3nH', None, 123, None], 'separator': '-'}","sequence item 2: expected str instance, NoneType found",2024-12-05 21:46:49
+list.pop,"{'list': [92, 99, 55], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, '0}R3-', 123, '^l\\`$', 123], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [], 'index': -7}",pop from empty list,2024-12-05 21:46:49
+dict.update,"{'dict': {'mt+};': 39, '7U>rV': 84, 'd-$MT': 95, 'FDprE': 7, 'N1nY8': 37}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, 123, ""v'p$E"", ';)9+J', 123], 'separator': ' '}","sequence item 0: expected str instance, int found",2024-12-05 21:46:49
+list.pop,"{'list': [30, 48, 69, 76, 97, 12], 'index': -10}",pop index out of range,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, None, None, None, '}Opr""'], 'separator': '-'}","sequence item 0: expected str instance, NoneType found",2024-12-05 21:46:49
+list.pop,"{'list': [34, 5, 41, 65, 96], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+dict.update,"{'dict': {'K>)\\{': 12, '*9}B-': 54, '`3K6u': 46, '2y%|`': 74, '|yZCp': 70}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['""2YIQ', '!Kl@5', 123, 'n=t#)', ""A'O96""], 'separator': '-'}","sequence item 2: expected str instance, int found",2024-12-05 21:46:49
+list.pop,"{'list': [52, 59, 9, 52, 62, 65, 17, 17, 64, 47], 'index': 10}",pop index out of range,2024-12-05 21:46:49
+dict.update,"{'dict': {'CR:fl': 83, '[2o!W': 8, 'f8_9f': 72, '*F""wT': 83, 'w)d:N': 70}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+float,{'input': None},"float() argument must be a string or a real number, not 'NoneType'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, 123, ""j6#j'"", 'F1xPr', None], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [71, 33, 16, 54, 56, 76], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['3Zv^<', 'hW%n.', 123, 123, 123], 'separator': ' '}","sequence item 2: expected str instance, int found",2024-12-05 21:46:49
+list.pop,"{'list': [52], 'index': -3}",pop index out of range,2024-12-05 21:46:49
+dict.update,"{'dict': {'Jf<4C': 28, 'mJ(9S': 12, '{H!/\\': 58, '}L9XW': 60, 'LyRoq': 56}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+float,"{'input': '1x/\'-nr_""h'}","could not convert string to float: '1x/\'-nr_""h'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, 123, 'MHBnz', 123, 123], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [26], 'index': 7}",pop index out of range,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, '9Hv""Y', 'DdX!L', None, 123], 'separator': ' '}","sequence item 0: expected str instance, int found",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, None, '2>,Vk', None, 123], 'separator': '-'}","sequence item 0: expected str instance, NoneType found",2024-12-05 21:46:49
+list.pop,"{'list': [66, 90], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+dict.update,"{'dict': {'wa6)e': 33, 'T`2QR': 61, ':iVSq': 28, '$e\\|a': 45, 'n282f': 41}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+float,{'input': None},"float() argument must be a string or a real number, not 'NoneType'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['(_afm', '5$k?q', 'zei^-', 'PP.rP', 123], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [46, 6, 88, 18], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+dict.update,"{'dict': {'\\eAS!': 5, '0pgMj': 40, 'RDpvn': 76, ""O'P!^"": 83, 'MUD""i': 23}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+float,{'input': None},"float() argument must be a string or a real number, not 'NoneType'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, '4.)Je', None, None, None], 'separator': ' '}","sequence item 0: expected str instance, NoneType found",2024-12-05 21:46:49
+list.pop,"{'list': [93, 77, 48, 42, 11, 88, 64, 36, 66], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, None, '5<+fg', 123, 'XtQp|'], 'separator': '-'}","sequence item 0: expected str instance, NoneType found",2024-12-05 21:46:49
+list.pop,"{'list': [67, 10, 26, 49], 'index': 4}",pop index out of range,2024-12-05 21:46:49
+float,{'input': None},"float() argument must be a string or a real number, not 'NoneType'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, None, None, '3_un.', None], 'separator': ' '}","sequence item 0: expected str instance, int found",2024-12-05 21:46:49
+list.pop,"{'list': [64, 82, 96, 66, 34, 29, 16, 56], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, '<{feC', 123, 123, None], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [89], 'index': 3}",pop index out of range,2024-12-05 21:46:49
+float,{'input': '+x;M)QT[;{'},could not convert string to float: '+x;M)QT[;{',2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, 123, 123, '1@R[!', 123], 'separator': '-'}","sequence item 0: expected str instance, NoneType found",2024-12-05 21:46:49
+list.pop,"{'list': [90, 71, 20, 61, 86], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+float,{'input': None},"float() argument must be a string or a real number, not 'NoneType'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, None, 123, ']Zj|&', None], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+float,{'input': None},"float() argument must be a string or a real number, not 'NoneType'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, None, None, 'Q@Ny/', 123], 'separator': '-'}","sequence item 0: expected str instance, NoneType found",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, None, None, None, None], 'separator': '-'}","sequence item 0: expected str instance, int found",2024-12-05 21:46:49
+list.pop,"{'list': [63, 72, 63, 74, 69, 72, 11, 6], 'index': 9}",pop index out of range,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, None, 123, '><pFS', '_$+8J'], 'separator': '-'}","sequence item 0: expected str instance, int found",2024-12-05 21:46:49
+float,{'input': None},"float() argument must be a string or a real number, not 'NoneType'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['=sgy(', '""A\'qt', 'Yv&Ai', None, 123], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, '-D:w<', 123, '9YF1?', None], 'separator': '-'}","sequence item 0: expected str instance, int found",2024-12-05 21:46:49
+list.pop,"{'list': [52, 1, 5, 97, 19, 81, 85], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, 'qw/CB', 123, 'A7fk""', 'lO*S4'], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [59], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+float,{'input': None},"float() argument must be a string or a real number, not 'NoneType'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['R2Li""', 123, None, 123, 'z~De-'], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [71, 56, 64], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+float,{'input': None},"float() argument must be a string or a real number, not 'NoneType'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['g9\\+u', None, '|zHjW', None, None], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+float,"{'input': 'x43,}%7%7c'}","could not convert string to float: 'x43,}%7%7c'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['N53\\W', '-.gr%', None, 123, 123], 'separator': ' '}","sequence item 2: expected str instance, NoneType found",2024-12-05 21:46:49
+float,{'input': None},"float() argument must be a string or a real number, not 'NoneType'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, ""S67a'"", None, 123, '>*3JC'], 'separator': ' '}","sequence item 0: expected str instance, int found",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, None, None, ""'4wv%"", 'p<W$('], 'separator': ' '}","sequence item 0: expected str instance, int found",2024-12-05 21:46:49
+list.pop,"{'list': [64, 46, 84, 21, 19, 35, 1, 83, 1, 90], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+float,{'input': None},"float() argument must be a string or a real number, not 'NoneType'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['ONR6F', None, 123, '=G~*3', None], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [65, 35, 39, 69, 34, 13, 25], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['FG~Kl', 123, None, None, '|1g!/'], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [], 'index': 5}",pop from empty list,2024-12-05 21:46:49
+float,{'input': '6*_bOl[tm='},could not convert string to float: '6*_bOl[tm=',2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['OUb:Z', '-N##^', None, None, None], 'separator': '-'}","sequence item 2: expected str instance, NoneType found",2024-12-05 21:46:49
+list.pop,"{'list': [41], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+float,{'input': None},"float() argument must be a string or a real number, not 'NoneType'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['n}ixL', 123, None, 123, None], 'separator': '-'}","sequence item 1: expected str instance, int found",2024-12-05 21:46:49
+list.pop,"{'list': [44], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, '`wo#z', 123, '+8;Vx', None], 'separator': '-'}","sequence item 0: expected str instance, NoneType found",2024-12-05 21:46:49
+list.pop,"{'list': [33], 'index': 1}",pop index out of range,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, 123, 'tTB||', 'WtZ%k', 123], 'separator': '-'}","sequence item 0: expected str instance, NoneType found",2024-12-05 21:46:49
+list.pop,"{'list': [], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+float,{'input': '.>v<rA<DkC'},could not convert string to float: '.>v<rA<DkC',2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, 123, 123, 123, 'qV!;/'], 'separator': ' '}","sequence item 0: expected str instance, NoneType found",2024-12-05 21:46:49
+list.pop,"{'list': [22, 99, 47, 99], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+float,{'input': None},"float() argument must be a string or a real number, not 'NoneType'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['0lk;}', 'heELI', 'Yy(+q', 123, None], 'separator': '-'}","sequence item 3: expected str instance, int found",2024-12-05 21:46:49
+list.pop,"{'list': [95, 14, 9, 36, 52], 'index': -10}",pop index out of range,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, '7~6r~', None, None, None], 'separator': '-'}","sequence item 0: expected str instance, int found",2024-12-05 21:46:49
+list.pop,"{'list': [39, 100], 'index': 6}",pop index out of range,2024-12-05 21:46:49
+dict.update,"{'dict': {'r{oh[': 61, '\\)\\(}': 22, '4T=:O': 5, 'Ciu~,': 53, '?n:gY': 51}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['&$/!R', None, 'hVF>Z', None, None], 'separator': ' '}","sequence item 1: expected str instance, NoneType found",2024-12-05 21:46:49
+float,"{'input': '&7i<7""V.m4'}","could not convert string to float: '&7i<7""V.m4'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, 'W{[64', None, 123, 'G[dP/'], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [28, 99, 81, 31, 2], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+float,"{'input': ""Kf{h.BNnh'""}","could not convert string to float: ""Kf{h.BNnh'""",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, None, 123, '7N]A.', 'KZ$Ck'], 'separator': '-'}","sequence item 0: expected str instance, NoneType found",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['f/qb:', None, '4]K0_', None, 123], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+float,{'input': None},"float() argument must be a string or a real number, not 'NoneType'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['o>QsO', None, ""f'7Q_"", '3WNRm', None], 'separator': ' '}","sequence item 1: expected str instance, NoneType found",2024-12-05 21:46:49
+list.pop,"{'list': [], 'index': 2}",pop from empty list,2024-12-05 21:46:49
+float,"{'input': ""BfG!Z'p*8-""}","could not convert string to float: ""BfG!Z'p*8-""",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, '?]$j9', 'N]KGE', 123, None], 'separator': ' '}","sequence item 0: expected str instance, NoneType found",2024-12-05 21:46:49
+float,{'input': None},"float() argument must be a string or a real number, not 'NoneType'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, 'pTy>6', 123, None, None], 'separator': '-'}","sequence item 0: expected str instance, int found",2024-12-05 21:46:49
+list.pop,"{'list': [10, 99, 78, 64], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, None, 123, None, None], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [66], 'index': 1}",pop index out of range,2024-12-05 21:46:49
+float,{'input': 'h>3c6*FRT0'},could not convert string to float: 'h>3c6*FRT0',2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['g~*[c', None, '>(OE4', '/:q_c', 123], 'separator': '-'}","sequence item 1: expected str instance, NoneType found",2024-12-05 21:46:49
+list.pop,"{'list': [4, 82, 30, 80, 88, 49, 49, 69, 58, 83], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+float,{'input': 'kj-8.O[}i9'},could not convert string to float: 'kj-8.O[}i9',2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, 123, 123, 's3+$*', 'j""xC;'], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+dict.update,"{'dict': {'6p6e3': 19, 'ypY+5': 31, 'YT(Gd': 97, 'p-(hf': 70, ':L3dI': 30}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['x%N~N', '4HPCO', '?:~Uf', '*|tye', '=1KG}'], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+float,{'input': '~[BN_ee)ay'},could not convert string to float: '~[BN_ee)ay',2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, 'n\\yiR', None, 123, 123], 'separator': ' '}","sequence item 0: expected str instance, NoneType found",2024-12-05 21:46:49
+list.pop,"{'list': [], 'index': 9}",pop from empty list,2024-12-05 21:46:49
+dict.update,"{'dict': {'oXChn': 83, 'SnMBv': 56, 'p12Xe': 37, '7=|vH': 14, '8q{yr': 77}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['R=CZ0', 123, '<<?o?', 'isd""q', 123], 'separator': ' '}","sequence item 1: expected str instance, int found",2024-12-05 21:46:49
+float,{'input': None},"float() argument must be a string or a real number, not 'NoneType'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['haJ3<', 123, 123, None, 'A+y2}'], 'separator': ' '}","sequence item 1: expected str instance, int found",2024-12-05 21:46:49
+list.pop,"{'list': [65, 93], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+dict.update,"{'dict': {'iVOw=': 19, 'I[j+F': 60, 'nvmF~': 84, 'l({&{': 88, '-N1a[': 98}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, None, None, 123, None], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['$]j`K', '=>Lp]', 123, '9P`em', 123], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [72, 9, 8, 8, 87, 56, 74], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+dict.update,"{'dict': {':Na!)': 99, '*)13P': 80, 'h}uwm': 98, 'Q{;q_': 7, '$.y&m': 99}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['}):Zu', 'zzI[D', 123, 123, None], 'separator': '-'}","sequence item 2: expected str instance, int found",2024-12-05 21:46:49
+list.pop,"{'list': [16, 27, 56, 28, 31, 60, 52, 0, 31, 17], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, 123, '$ik3R', None, '1Y-ke'], 'separator': ' '}","sequence item 0: expected str instance, int found",2024-12-05 21:46:49
+list.pop,"{'list': [63, 50, 44], 'index': -5}",pop index out of range,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, None, 123, '/jKCP', 123], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, '%HVQ\\', 123, '6t1,T', 'y*!zo'], 'separator': ' '}","sequence item 0: expected str instance, NoneType found",2024-12-05 21:46:49
+list.pop,"{'list': [93, 93], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+dict.update,"{'dict': {'7HPU]': 43, 'HGI7G': 37, 'W<0k&': 15, 'H1c=G': 20, '}M&b!': 24}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+float,{'input': '8N5UGW0/=0'},could not convert string to float: '8N5UGW0/=0',2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, 'h""A>^', 123, 123, None], 'separator': '-'}","sequence item 0: expected str instance, int found",2024-12-05 21:46:49
+float,{'input': '4WRWAXvnd)'},could not convert string to float: '4WRWAXvnd)',2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, None, 123, 'n@zKW', None], 'separator': '-'}","sequence item 0: expected str instance, NoneType found",2024-12-05 21:46:49
+list.pop,"{'list': [74, 17, 15, 49], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+float,{'input': 'A>VK%e/c71'},could not convert string to float: 'A>VK%e/c71',2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['!mUh/', 'MOl[s', 123, 123, '&2)vs'], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [94, 75, 7], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+dict.update,"{'dict': {'cPr?Z': 40, 'a/MGe': 11, 'uU80R': 19, ':&X\\t': 28, 'q`jso': 24}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+float,"{'input': ""}P&nW'U|3[""}","could not convert string to float: ""}P&nW'U|3[""",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['ix-&]', 'D<k6c', None, 123, 'sFpdx'], 'separator': '-'}","sequence item 2: expected str instance, NoneType found",2024-12-05 21:46:49
+dict.update,"{'dict': {'+:m]Q': 10, '!`63b': 58, 'Ch+Uy': 43, ',#R`c': 99, '^."">E': 97}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, '>znJK', 123, None, 123], 'separator': ' '}","sequence item 0: expected str instance, int found",2024-12-05 21:46:49
+list.pop,"{'list': [], 'index': 2}",pop from empty list,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['};vh[', 'G#bF)', 'DyI9x', '06Tm&', 'Kj%4&'], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [7, 20, 54, 39, 64], 'index': -10}",pop index out of range,2024-12-05 21:46:49
+float,"{'input': ')3n,\\?IEFA'}","could not convert string to float: ')3n,\\?IEFA'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['\\A/(A', 'ojam,', 123, None, 'tPO]x'], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [99, 23, 36, 94, 63, 30, 15, 31], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, None, 123, 123, 123], 'separator': ' '}","sequence item 0: expected str instance, NoneType found",2024-12-05 21:46:49
+float,{'input': None},"float() argument must be a string or a real number, not 'NoneType'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['qP|?*', 123, 123, '?y8RE', 'tg2Jf'], 'separator': ' '}","sequence item 1: expected str instance, int found",2024-12-05 21:46:49
+dict.update,"{'dict': {""$/'Cd"": 27, '3X8_r': 11, 'gO!{D': 43, 'FnK&f': 8, '<*f>u': 63}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, 'q=K/i', 123, '>tj*P', None], 'separator': ' '}","sequence item 0: expected str instance, NoneType found",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, 123, 123, None, None], 'separator': ' '}","sequence item 0: expected str instance, NoneType found",2024-12-05 21:46:49
+dict.update,"{'dict': {'yb<|M': 3, 'Y~)E0': 86, 'NM_Y<': 89, '""jYRa': 16, 'IB>G(': 96}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+float,{'input': 'r&z_X!Y?+?'},could not convert string to float: 'r&z_X!Y?+?',2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['LqNhh', None, 123, '>BYKD', None], 'separator': ' '}","sequence item 1: expected str instance, NoneType found",2024-12-05 21:46:49
+list.pop,"{'list': [48, 0, 93, 22, 40, 31, 66, 24, 1], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+dict.update,"{'dict': {'vF?q^': 81, ';AQ/p': 6, '!$bm6': 56, '!mzzy': 1, 'Qdf(1': 68}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['VnKDC', 123, 'v_P+_', 'pRZqm', 123], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, 123, None, None, 123], 'separator': '-'}","sequence item 0: expected str instance, int found",2024-12-05 21:46:49
+float,{'input': 'X[/($g?r4b'},could not convert string to float: 'X[/($g?r4b',2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['DTlR$', 'T""dkX', '={&1,', '5j<^I', '\\}O?g'], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [83, 21, 57, 22, 60], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+float,{'input': None},"float() argument must be a string or a real number, not 'NoneType'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, None, 'gUKM!', None, '^#k@@'], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [74, 19, 84, 14, 9, 12, 56, 80, 52, 41], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+dict.update,"{'dict': {'8/O|6': 81, '4Qy,k': 70, '4F&mj': 83, '+E^-#': 91, 'vZZ8w': 45}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, 123, None, 'D!%*{', 123], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [88], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+float,{'input': 'OFz?___72b'},could not convert string to float: 'OFz?___72b',2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, 123, 123, 123, '_]:5)'], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [23, 53, 54, 23, 82, 63, 30, 100], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+float,"{'input': ',X`(GK273*'}","could not convert string to float: ',X`(GK273*'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, 123, None, None, '<lk$b'], 'separator': '-'}","sequence item 0: expected str instance, NoneType found",2024-12-05 21:46:49
+float,{'input': 'sYmspTQ8`['},could not convert string to float: 'sYmspTQ8`[',2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, 123, '`M|n)', None, '2LoK-'], 'separator': ' '}","sequence item 0: expected str instance, int found",2024-12-05 21:46:49
+list.pop,"{'list': [42, 35, 95, 96, 33, 13, 13, 93], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+dict.update,"{'dict': {'lU4Rr': 93, '[-4S>': 46, '|OjQ/': 77, '=QP*U': 54, '14>D{': 65}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, None, None, None, 'SqHIW'], 'separator': ' '}","sequence item 0: expected str instance, int found",2024-12-05 21:46:49
+list.pop,"{'list': [98], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+float,{'input': None},"float() argument must be a string or a real number, not 'NoneType'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['%*W>h', None, None, 123, 123], 'separator': ' '}","sequence item 1: expected str instance, NoneType found",2024-12-05 21:46:49
+list.pop,"{'list': [], 'index': -5}",pop from empty list,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['pIAys', None, None, None, 'Sk&b1'], 'separator': '-'}","sequence item 1: expected str instance, NoneType found",2024-12-05 21:46:49
+list.pop,"{'list': [90, 97, 4, 24, 70], 'index': -7}",pop index out of range,2024-12-05 21:46:49
+float,"{'input': '}@*_[d-,~&'}","could not convert string to float: '}@*_[d-,~&'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, '@c(9,', None, None, 123], 'separator': ' '}","sequence item 0: expected str instance, int found",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, None, None, 123, None], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [93, 32, 35, 42, 51], 'index': 7}",pop index out of range,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['C9%/{', 123, None, None, None], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [18], 'index': -8}",pop index out of range,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, 'w4C\\f', 123, 123, 123], 'separator': '-'}","sequence item 0: expected str instance, NoneType found",2024-12-05 21:46:49
+dict.update,"{'dict': {'pNmE&': 73, '3Mm/A': 63, ',t1(t': 56, '6Kye]': 82, 'W.S4W': 4}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+float,{'input': None},"float() argument must be a string or a real number, not 'NoneType'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['d8MR<', ':}#\\/', '\\;`xq', None, None], 'separator': '-'}","sequence item 3: expected str instance, NoneType found",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, 'mGrki', 'eiBp/', 123, 123], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [94, 12, 39, 74], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+dict.update,"{'dict': {'_~RO}': 18, 'Q_+RA': 62, '!=R@Y': 28, '(H*E<': 23, 'vJL[V': 30}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, '39n!""', 123, '(iPHQ', '^^)|V'], 'separator': '-'}","sequence item 0: expected str instance, int found",2024-12-05 21:46:49
+list.pop,"{'list': [4, 95, 74, 88, 74, 29, 45, 90], 'index': 9}",pop index out of range,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, None, 123, 123, 123], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [72, 13, 0, 37, 39, 90, 47], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, None, 'E[TP(', None, None], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [28, 61, 55, 34, 0], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+dict.update,"{'dict': {'XG%Y&': 9, '2;=LR': 74, ""s^GG'"": 28, '>v7D)': 49, 'hjmC7': 45}, 'updates': None}",'NoneType' object is not iterable,2024-12-05 21:46:49
+float,{'input': '_fyW`}J8pu'},could not convert string to float: '_fyW`}J8pu',2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['yn}&M', 'GbZ<X', None, 123, None], 'separator': ' '}","sequence item 2: expected str instance, NoneType found",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': ['{WX6M', None, 'N$#^o', '~\\<G\\', None], 'separator': None}",'NoneType' object has no attribute 'join',2024-12-05 21:46:49
+list.pop,"{'list': [23, 38, 34, 39], 'index': None}",'NoneType' object cannot be interpreted as an integer,2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [None, 123, 123, None, 123], 'separator': ' '}","sequence item 0: expected str instance, NoneType found",2024-12-05 21:46:49
+list.pop,"{'list': [46, 93], 'index': 5}",pop index out of range,2024-12-05 21:46:49
+float,{'input': None},"float() argument must be a string or a real number, not 'NoneType'",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'invalid_script.py'},"'(' was never closed (<unknown>, line 1)",2024-12-05 21:46:49
+checkIfParsablePython,{'file': 'non_existent_file.py'},[Errno 2] No such file or directory: 'non_existent_file.py',2024-12-05 21:46:49
+checkIfParsablePython,{'file': None},"expected str, bytes or os.PathLike object, not NoneType",2024-12-05 21:46:49
+checkIfParsablePython,{'file': ''},[Errno 2] No such file or directory: '',2024-12-05 21:46:49
+str.join,"{'list': [123, 123, 'DO`B#', None, 'G\\j7i'], 'separator': '-'}","sequence item 0: expected str instance, int found",2024-12-05 21:46:49
+float,{'input': None},"float() argument must be a string or a real number, not 'NoneType'",2024-12-05 21:46:49

@@ -1,0 +1,901 @@
+2024-12-05 21:46:49,978 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,978 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,978 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,978 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,978 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,978 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, None, None, None, 123], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,978 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [39, 60, 82], 'index': -10}, Error: pop index out of range
+2024-12-05 21:46:49,978 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'#*(gl': 5, 'UBpGo': 56, 'y;1rl': 65, 'Iks.^': 36, 'g)!Jv': 88, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'#*(gl': 5, 'UBpGo': 56, 'y;1rl': 65, 'Iks.^': 36, 'g)!Jv': 88, 'key': 'value'}
+2024-12-05 21:46:49,978 - INFO - Forensics - Method: float, Inputs: {'input': '575.9857451469618'}, Output: 575.9857451469618
+2024-12-05 21:46:49,978 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,978 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,978 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,978 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,978 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,978 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, None, 123, 'qi7z{', None], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,978 - INFO - Forensics - Method: list.pop, Inputs: {'list': [10, 34, 76, 12, 93, 10, 41, 19], 'index': 8}, Output: 95
+2024-12-05 21:46:49,978 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {'oFn#Q': 40, 'H:01W': 25, '[cT~q': 20, 'dYr.a': 68, '6?H.u': 96}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,978 - INFO - Forensics - Method: float, Inputs: {'input': '123.456'}, Output: 123.456
+2024-12-05 21:46:49,978 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,978 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,978 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,978 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,978 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,978 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, '[#QOA', '@uBzd', 'fSR;%', '^:Q4b'], 'separator': '-'}, Error: sequence item 0: expected str instance, NoneType found
+2024-12-05 21:46:49,978 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [98, 65, 86], 'index': -9}, Error: pop index out of range
+2024-12-05 21:46:49,978 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'t(^).': 22, 'ndB1[': 20, 'o3_1?': 48, '9`Ajp': 51, '^=nRr': 71, ')Y<ce': 37}, 'updates': {')Y<ce': 37}}, Output: {'t(^).': 22, 'ndB1[': 20, 'o3_1?': 48, '9`Ajp': 51, '^=nRr': 71, ')Y<ce': 37}
+2024-12-05 21:46:49,978 - INFO - Forensics - Method: float, Inputs: {'input': '319.275707789546'}, Output: 319.275707789546
+2024-12-05 21:46:49,979 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['#>9x;', 123, None, '}G~4N', 123], 'separator': '-'}, Error: sequence item 1: expected str instance, int found
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [10], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {'K/$-j': 8, '^xIM,': 36, "sNz>'": 71, 'V-?0h': 62, 'LM("s': 93}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: float, Inputs: {'input': '[N)K4>z@)+'}, Error: could not convert string to float: '[N)K4>z@)+'
+2024-12-05 21:46:49,979 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, None, None, 123, None], 'separator': ' '}, Error: sequence item 0: expected str instance, NoneType found
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [97], 'index': 4}, Error: pop index out of range
+2024-12-05 21:46:49,979 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'7msCc': 94, 'NE/84': 72, 'ZXpo`': 49, 'ay|k*': 78, ':dfZ,': 46, '=m]Ue': 40}, 'updates': {'=m]Ue': 40}}, Output: {'7msCc': 94, 'NE/84': 72, 'ZXpo`': 49, 'ay|k*': 78, ':dfZ,': 46, '=m]Ue': 40}
+2024-12-05 21:46:49,979 - INFO - Forensics - Method: float, Inputs: {'input': '-888.7956276560087'}, Output: -888.7956276560087
+2024-12-05 21:46:49,979 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, 'JJdb~', None, '`x{5s', None], 'separator': '-'}, Error: sequence item 0: expected str instance, NoneType found
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {'-M,PZ': 76, 'Gwl]b': 66, '3rpC&': 55, '!zR[k': 21, '5I|\\i': 87}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: float, Inputs: {'input': None}, Error: float() argument must be a string or a real number, not 'NoneType'
+2024-12-05 21:46:49,979 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['J[?FH', '&^3nH', None, 123, None], 'separator': '-'}, Error: sequence item 2: expected str instance, NoneType found
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [92, 99, 55], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,979 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'%cF$k': 24, "%yh'q": 33, 'f$B,r': 75, '/y{Dw': 77, 'DBr+&': 3, '*@*)c': 1}, 'updates': {'*@*)c': 1}}, Output: {'%cF$k': 24, "%yh'q": 33, 'f$B,r': 75, '/y{Dw': 77, 'DBr+&': 3, '*@*)c': 1}
+2024-12-05 21:46:49,979 - INFO - Forensics - Method: float, Inputs: {'input': '123.456'}, Output: 123.456
+2024-12-05 21:46:49,979 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,979 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, '0}R3-', 123, '^l\\`$', 123], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [], 'index': -7}, Error: pop from empty list
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {'mt+};': 39, '7U>rV': 84, 'd-$MT': 95, 'FDprE': 7, 'N1nY8': 37}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,980 - INFO - Forensics - Method: float, Inputs: {'input': '123.456'}, Output: 123.456
+2024-12-05 21:46:49,980 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, 123, "v'p$E", ';)9+J', 123], 'separator': ' '}, Error: sequence item 0: expected str instance, int found
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [30, 48, 69, 76, 97, 12], 'index': -10}, Error: pop index out of range
+2024-12-05 21:46:49,980 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'<lq.]': 24, 'YH|6X': 73, '{|{aO': 2, ')"\'3G': 51, 'nz\\t+': 0, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'<lq.]': 24, 'YH|6X': 73, '{|{aO': 2, ')"\'3G': 51, 'nz\\t+': 0, 'key': 'value'}
+2024-12-05 21:46:49,980 - INFO - Forensics - Method: float, Inputs: {'input': '254.5995843577482'}, Output: 254.5995843577482
+2024-12-05 21:46:49,980 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, None, None, None, '}Opr"'], 'separator': '-'}, Error: sequence item 0: expected str instance, NoneType found
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [34, 5, 41, 65, 96], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {'K>)\\{': 12, '*9}B-': 54, '`3K6u': 46, '2y%|`': 74, '|yZCp': 70}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,980 - INFO - Forensics - Method: float, Inputs: {'input': '-73.94466347925106'}, Output: -73.94466347925106
+2024-12-05 21:46:49,980 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['"2YIQ', '!Kl@5', 123, 'n=t#)', "A'O96"], 'separator': '-'}, Error: sequence item 2: expected str instance, int found
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [52, 59, 9, 52, 62, 65, 17, 17, 64, 47], 'index': 10}, Error: pop index out of range
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {'CR:fl': 83, '[2o!W': 8, 'f8_9f': 72, '*F"wT': 83, 'w)d:N': 70}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: float, Inputs: {'input': None}, Error: float() argument must be a string or a real number, not 'NoneType'
+2024-12-05 21:46:49,980 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, 123, "j6#j'", 'F1xPr', None], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,980 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [71, 33, 16, 54, 56, 76], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,980 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'5@&#w': 24, 'tk*?p': 23, ':kqQn': 52, 'IR|!^': 4, 'mBseS': 84, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'5@&#w': 24, 'tk*?p': 23, ':kqQn': 52, 'IR|!^': 4, 'mBseS': 84, 'key': 'value'}
+2024-12-05 21:46:49,980 - INFO - Forensics - Method: float, Inputs: {'input': '748.2528723991454'}, Output: 748.2528723991454
+2024-12-05 21:46:49,980 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['3Zv^<', 'hW%n.', 123, 123, 123], 'separator': ' '}, Error: sequence item 2: expected str instance, int found
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [52], 'index': -3}, Error: pop index out of range
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {'Jf<4C': 28, 'mJ(9S': 12, '{H!/\\': 58, '}L9XW': 60, 'LyRoq': 56}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: float, Inputs: {'input': '1x/\'-nr_"h'}, Error: could not convert string to float: '1x/\'-nr_"h'
+2024-12-05 21:46:49,981 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, 123, 'MHBnz', 123, 123], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [26], 'index': 7}, Error: pop index out of range
+2024-12-05 21:46:49,981 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'ZH0nI': 16, "},->'": 2, '+P0:%': 70, 'thq>o': 7, 'h}Uw6': 25, 'xA{wt': 36}, 'updates': {'xA{wt': 36}}, Output: {'ZH0nI': 16, "},->'": 2, '+P0:%': 70, 'thq>o': 7, 'h}Uw6': 25, 'xA{wt': 36}
+2024-12-05 21:46:49,981 - INFO - Forensics - Method: float, Inputs: {'input': '41.81191654468125'}, Output: 41.81191654468125
+2024-12-05 21:46:49,981 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, '9Hv"Y', 'DdX!L', None, 123], 'separator': ' '}, Error: sequence item 0: expected str instance, int found
+2024-12-05 21:46:49,981 - INFO - Forensics - Method: list.pop, Inputs: {'list': [61, 33, 46, 62, 77, 82, 9], 'index': 0}, Output: 84
+2024-12-05 21:46:49,981 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'bbKGF': 76, '/,)Ep': 53, '3!4X0': 22, 'Kw8F/': 10, 'S,86M': 80, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'bbKGF': 76, '/,)Ep': 53, '3!4X0': 22, 'Kw8F/': 10, 'S,86M': 80, 'key': 'value'}
+2024-12-05 21:46:49,981 - INFO - Forensics - Method: float, Inputs: {'input': '-569.3938385796355'}, Output: -569.3938385796355
+2024-12-05 21:46:49,981 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, None, '2>,Vk', None, 123], 'separator': '-'}, Error: sequence item 0: expected str instance, NoneType found
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [66, 90], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {'wa6)e': 33, 'T`2QR': 61, ':iVSq': 28, '$e\\|a': 45, 'n282f': 41}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: float, Inputs: {'input': None}, Error: float() argument must be a string or a real number, not 'NoneType'
+2024-12-05 21:46:49,981 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['(_afm', '5$k?q', 'zei^-', 'PP.rP', 123], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [46, 6, 88, 18], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {'\\eAS!': 5, '0pgMj': 40, 'RDpvn': 76, "O'P!^": 83, 'MUD"i': 23}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,981 - ERROR - Forensics - Method: float, Inputs: {'input': None}, Error: float() argument must be a string or a real number, not 'NoneType'
+2024-12-05 21:46:49,981 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, '4.)Je', None, None, None], 'separator': ' '}, Error: sequence item 0: expected str instance, NoneType found
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [93, 77, 48, 42, 11, 88, 64, 36, 66], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,982 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'xPJ9V': 62, 't=S|5': 73, 'FR$05': 0, 'XH~rs': 95, '\\l=(=': 66, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'xPJ9V': 62, 't=S|5': 73, 'FR$05': 0, 'XH~rs': 95, '\\l=(=': 66, 'key': 'value'}
+2024-12-05 21:46:49,982 - INFO - Forensics - Method: float, Inputs: {'input': '-903.8169076624761'}, Output: -903.8169076624761
+2024-12-05 21:46:49,982 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, None, '5<+fg', 123, 'XtQp|'], 'separator': '-'}, Error: sequence item 0: expected str instance, NoneType found
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [67, 10, 26, 49], 'index': 4}, Error: pop index out of range
+2024-12-05 21:46:49,982 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'kh,;,': 58, ';mgnx': 100, '|CE}_': 8, '/)#iv': 66, '*=\\$0': 72, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'kh,;,': 58, ';mgnx': 100, '|CE}_': 8, '/)#iv': 66, '*=\\$0': 72, 'key': 'value'}
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: float, Inputs: {'input': None}, Error: float() argument must be a string or a real number, not 'NoneType'
+2024-12-05 21:46:49,982 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, None, None, '3_un.', None], 'separator': ' '}, Error: sequence item 0: expected str instance, int found
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [64, 82, 96, 66, 34, 29, 16, 56], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,982 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'^"rHt': 67, '.4Qei': 40, '4T5W5': 12, 'jcYLX': 83, 'd~h&e': 83, '?Rv^V': 59}, 'updates': {'?Rv^V': 59}}, Output: {'^"rHt': 67, '.4Qei': 40, '4T5W5': 12, 'jcYLX': 83, 'd~h&e': 83, '?Rv^V': 59}
+2024-12-05 21:46:49,982 - INFO - Forensics - Method: float, Inputs: {'input': '123.456'}, Output: 123.456
+2024-12-05 21:46:49,982 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, '<{feC', 123, 123, None], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [89], 'index': 3}, Error: pop index out of range
+2024-12-05 21:46:49,982 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'w(.Ht': 51, '8tE87': 40, 'NHlA8': 62, '=r!FD': 32, 'pE"2(': 99, '0Dl[9': 94}, 'updates': {'0Dl[9': 94}}, Output: {'w(.Ht': 51, '8tE87': 40, 'NHlA8': 62, '=r!FD': 32, 'pE"2(': 99, '0Dl[9': 94}
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: float, Inputs: {'input': '+x;M)QT[;{'}, Error: could not convert string to float: '+x;M)QT[;{'
+2024-12-05 21:46:49,982 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, 123, 123, '1@R[!', 123], 'separator': '-'}, Error: sequence item 0: expected str instance, NoneType found
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [90, 71, 20, 61, 86], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,982 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'=4;{y': 95, '=7>hS': 27, '{oU+v': 74, '~usBy': 72, 'PK"Xe': 9, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'=4;{y': 95, '=7>hS': 27, '{oU+v': 74, '~usBy': 72, 'PK"Xe': 9, 'key': 'value'}
+2024-12-05 21:46:49,982 - ERROR - Forensics - Method: float, Inputs: {'input': None}, Error: float() argument must be a string or a real number, not 'NoneType'
+2024-12-05 21:46:49,982 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, None, 123, ']Zj|&', None], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,983 - INFO - Forensics - Method: list.pop, Inputs: {'list': [70, 30, 56, 36, 44, 17, 65, 56], 'index': -9}, Output: 75
+2024-12-05 21:46:49,983 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'0#EB=': 17, 'f[:dn': 1, '<M;EY': 85, 'FMc2W': 33, 'F_YB)': 11, "lgfX'": 42}, 'updates': {"lgfX'": 42}}, Output: {'0#EB=': 17, 'f[:dn': 1, '<M;EY': 85, 'FMc2W': 33, 'F_YB)': 11, "lgfX'": 42}
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: float, Inputs: {'input': None}, Error: float() argument must be a string or a real number, not 'NoneType'
+2024-12-05 21:46:49,983 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, None, None, 'Q@Ny/', 123], 'separator': '-'}, Error: sequence item 0: expected str instance, NoneType found
+2024-12-05 21:46:49,983 - INFO - Forensics - Method: list.pop, Inputs: {'list': [42, 28, 13, 55, 94, 24], 'index': -6}, Output: 82
+2024-12-05 21:46:49,983 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'N}eB6': 14, '*23<u': 40, 'dq86>': 53, '0>RZU': 82, '>iO(j': 89, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'N}eB6': 14, '*23<u': 40, 'dq86>': 53, '0>RZU': 82, '>iO(j': 89, 'key': 'value'}
+2024-12-05 21:46:49,983 - INFO - Forensics - Method: float, Inputs: {'input': '-234.67625141266058'}, Output: -234.67625141266058
+2024-12-05 21:46:49,983 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, None, None, None, None], 'separator': '-'}, Error: sequence item 0: expected str instance, int found
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [63, 72, 63, 74, 69, 72, 11, 6], 'index': 9}, Error: pop index out of range
+2024-12-05 21:46:49,983 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'QI(0Q': 70, 's>%58': 65, 'T<,A^': 51, 'B,`,m': 35, 'n;O/_': 52, '0xc9V': 19}, 'updates': {'0xc9V': 19}}, Output: {'QI(0Q': 70, 's>%58': 65, 'T<,A^': 51, 'B,`,m': 35, 'n;O/_': 52, '0xc9V': 19}
+2024-12-05 21:46:49,983 - INFO - Forensics - Method: float, Inputs: {'input': '-903.7223498738565'}, Output: -903.7223498738565
+2024-12-05 21:46:49,983 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, None, 123, '><pFS', '_$+8J'], 'separator': '-'}, Error: sequence item 0: expected str instance, int found
+2024-12-05 21:46:49,983 - INFO - Forensics - Method: list.pop, Inputs: {'list': [18, 19, 96, 86, 42, 29, 44], 'index': -5}, Output: 29
+2024-12-05 21:46:49,983 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'o&Sqh': 62, 'M[t&3': 74, 'QGeYP': 75, 'H^8[f': 35, 'Z?rWp': 52, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'o&Sqh': 62, 'M[t&3': 74, 'QGeYP': 75, 'H^8[f': 35, 'Z?rWp': 52, 'key': 'value'}
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: float, Inputs: {'input': None}, Error: float() argument must be a string or a real number, not 'NoneType'
+2024-12-05 21:46:49,983 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,983 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['=sgy(', '"A\'qt', 'Yv&Ai', None, 123], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,983 - INFO - Forensics - Method: list.pop, Inputs: {'list': [15, 4], 'index': 2}, Output: 56
+2024-12-05 21:46:49,983 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'rJOI0': 12, 'o=.;J': 31, 'o/`n8': 16, 'd\\BsY': 11, '~P.1Q': 90, '%rf:%': 32}, 'updates': {'%rf:%': 32}}, Output: {'rJOI0': 12, 'o=.;J': 31, 'o/`n8': 16, 'd\\BsY': 11, '~P.1Q': 90, '%rf:%': 32}
+2024-12-05 21:46:49,983 - INFO - Forensics - Method: float, Inputs: {'input': '248.69469534862492'}, Output: 248.69469534862492
+2024-12-05 21:46:49,983 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, '-D:w<', 123, '9YF1?', None], 'separator': '-'}, Error: sequence item 0: expected str instance, int found
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [52, 1, 5, 97, 19, 81, 85], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,984 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'Ie[0U': 60, '\\w?l7': 87, '57d1j': 11, '@6,PZ': 80, 'MtRb&': 55, '@rb3(': 58}, 'updates': {'@rb3(': 58}}, Output: {'Ie[0U': 60, '\\w?l7': 87, '57d1j': 11, '@6,PZ': 80, 'MtRb&': 55, '@rb3(': 58}
+2024-12-05 21:46:49,984 - INFO - Forensics - Method: float, Inputs: {'input': '-863.7890749996373'}, Output: -863.7890749996373
+2024-12-05 21:46:49,984 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, 'qw/CB', 123, 'A7fk"', 'lO*S4'], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [59], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,984 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'3;j|%': 53, '"h&B[': 76, '^,M$x': 31, 'C$U(6': 52, ':P8?F': 40, 'tD+RQ': 47}, 'updates': {'tD+RQ': 47}}, Output: {'3;j|%': 53, '"h&B[': 76, '^,M$x': 31, 'C$U(6': 52, ':P8?F': 40, 'tD+RQ': 47}
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: float, Inputs: {'input': None}, Error: float() argument must be a string or a real number, not 'NoneType'
+2024-12-05 21:46:49,984 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['R2Li"', 123, None, 123, 'z~De-'], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [71, 56, 64], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,984 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'n|69g': 86, '<\\[;+': 63, '#Ix?g': 16, 'L#Q*J': 20, 's9nkp': 8, '20,xb': 28}, 'updates': {'20,xb': 28}}, Output: {'n|69g': 86, '<\\[;+': 63, '#Ix?g': 16, 'L#Q*J': 20, 's9nkp': 8, '20,xb': 28}
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: float, Inputs: {'input': None}, Error: float() argument must be a string or a real number, not 'NoneType'
+2024-12-05 21:46:49,984 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['g9\\+u', None, '|zHjW', None, None], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,984 - INFO - Forensics - Method: list.pop, Inputs: {'list': [54, 77, 79, 46, 76, 88, 9], 'index': 2}, Output: 56
+2024-12-05 21:46:49,984 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'FS|>I': 79, 'dUgtX': 23, 'BwTno': 96, 'hTix=': 56, '9wDG%': 50, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'FS|>I': 79, 'dUgtX': 23, 'BwTno': 96, 'hTix=': 56, '9wDG%': 50, 'key': 'value'}
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: float, Inputs: {'input': 'x43,}%7%7c'}, Error: could not convert string to float: 'x43,}%7%7c'
+2024-12-05 21:46:49,984 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['N53\\W', '-.gr%', None, 123, 123], 'separator': ' '}, Error: sequence item 2: expected str instance, NoneType found
+2024-12-05 21:46:49,984 - INFO - Forensics - Method: list.pop, Inputs: {'list': [16, 93, 64, 30, 76], 'index': 2}, Output: 19
+2024-12-05 21:46:49,984 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'a[,C~': 55, '@#SHr': 71, '{6y;<': 90, 'SV_QF': 52, 'm+$OY': 14, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'a[,C~': 55, '@#SHr': 71, '{6y;<': 90, 'SV_QF': 52, 'm+$OY': 14, 'key': 'value'}
+2024-12-05 21:46:49,984 - ERROR - Forensics - Method: float, Inputs: {'input': None}, Error: float() argument must be a string or a real number, not 'NoneType'
+2024-12-05 21:46:49,984 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, "S67a'", None, 123, '>*3JC'], 'separator': ' '}, Error: sequence item 0: expected str instance, int found
+2024-12-05 21:46:49,985 - INFO - Forensics - Method: list.pop, Inputs: {'list': [26, 14, 46, 57, 45, 49, 41, 19], 'index': -7}, Output: 12
+2024-12-05 21:46:49,985 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'C]"H6': 92, 'E2*19': 53, 'e&2`4': 84, 'n^Wr@': 84, '=[*8$': 42, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'C]"H6': 92, 'E2*19': 53, 'e&2`4': 84, 'n^Wr@': 84, '=[*8$': 42, 'key': 'value'}
+2024-12-05 21:46:49,985 - INFO - Forensics - Method: float, Inputs: {'input': '123.456'}, Output: 123.456
+2024-12-05 21:46:49,985 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, None, None, "'4wv%", 'p<W$('], 'separator': ' '}, Error: sequence item 0: expected str instance, int found
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [64, 46, 84, 21, 19, 35, 1, 83, 1, 90], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,985 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'_v~N3': 17, ')If]d': 93, "*T4U'": 28, 'R;hGZ': 43, 'Zei0E': 43, 'r)#v/': 5}, 'updates': {'r)#v/': 5}}, Output: {'_v~N3': 17, ')If]d': 93, "*T4U'": 28, 'R;hGZ': 43, 'Zei0E': 43, 'r)#v/': 5}
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: float, Inputs: {'input': None}, Error: float() argument must be a string or a real number, not 'NoneType'
+2024-12-05 21:46:49,985 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['ONR6F', None, 123, '=G~*3', None], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [65, 35, 39, 69, 34, 13, 25], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,985 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'-dcU6': 62, 'Y?bJD': 95, 's2wCs': 60, 'C5oJj': 83, 'Q(q;@': 49, '"ME?A': 97}, 'updates': {'"ME?A': 97}}, Output: {'-dcU6': 62, 'Y?bJD': 95, 's2wCs': 60, 'C5oJj': 83, 'Q(q;@': 49, '"ME?A': 97}
+2024-12-05 21:46:49,985 - INFO - Forensics - Method: float, Inputs: {'input': '221.79126592841112'}, Output: 221.79126592841112
+2024-12-05 21:46:49,985 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['FG~Kl', 123, None, None, '|1g!/'], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [], 'index': 5}, Error: pop from empty list
+2024-12-05 21:46:49,985 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'dh{xM': 0, '!#;f8': 90, 'h4lO2': 30, '`Ew`?': 58, 'O{n]]': 22, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'dh{xM': 0, '!#;f8': 90, 'h4lO2': 30, '`Ew`?': 58, 'O{n]]': 22, 'key': 'value'}
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: float, Inputs: {'input': '6*_bOl[tm='}, Error: could not convert string to float: '6*_bOl[tm='
+2024-12-05 21:46:49,985 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['OUb:Z', '-N##^', None, None, None], 'separator': '-'}, Error: sequence item 2: expected str instance, NoneType found
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [41], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,985 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'fz&Fi': 13, 'Nn2~e': 83, 'yM6LD': 7, 'sPpo|': 7, 'c!8%?': 37, '5.7t/': 31}, 'updates': {'5.7t/': 31}}, Output: {'fz&Fi': 13, 'Nn2~e': 83, 'yM6LD': 7, 'sPpo|': 7, 'c!8%?': 37, '5.7t/': 31}
+2024-12-05 21:46:49,985 - ERROR - Forensics - Method: float, Inputs: {'input': None}, Error: float() argument must be a string or a real number, not 'NoneType'
+2024-12-05 21:46:49,985 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['n}ixL', 123, None, 123, None], 'separator': '-'}, Error: sequence item 1: expected str instance, int found
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [44], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,986 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'5T7]u': 55, 'EH@~#': 56, 'BMN,c': 73, 'n]`;[': 55, 'xCj04': 41, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'5T7]u': 55, 'EH@~#': 56, 'BMN,c': 73, 'n]`;[': 55, 'xCj04': 41, 'key': 'value'}
+2024-12-05 21:46:49,986 - INFO - Forensics - Method: float, Inputs: {'input': '-519.1409886233487'}, Output: -519.1409886233487
+2024-12-05 21:46:49,986 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, '`wo#z', 123, '+8;Vx', None], 'separator': '-'}, Error: sequence item 0: expected str instance, NoneType found
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [33], 'index': 1}, Error: pop index out of range
+2024-12-05 21:46:49,986 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'Hy::l': 27, 'P!D)a': 31, 'NGw/|': 84, 'e={lU': 94, 'Lj0m?': 48, '}`t)]': 37}, 'updates': {'}`t)]': 37}}, Output: {'Hy::l': 27, 'P!D)a': 31, 'NGw/|': 84, 'e={lU': 94, 'Lj0m?': 48, '}`t)]': 37}
+2024-12-05 21:46:49,986 - INFO - Forensics - Method: float, Inputs: {'input': '747.604474467071'}, Output: 747.604474467071
+2024-12-05 21:46:49,986 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, 123, 'tTB||', 'WtZ%k', 123], 'separator': '-'}, Error: sequence item 0: expected str instance, NoneType found
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,986 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'i.LPz': 33, '9H-H%': 75, 'O8wt(': 19, 'EtB\\h': 95, "cLM'u": 89, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'i.LPz': 33, '9H-H%': 75, 'O8wt(': 19, 'EtB\\h': 95, "cLM'u": 89, 'key': 'value'}
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: float, Inputs: {'input': '.>v<rA<DkC'}, Error: could not convert string to float: '.>v<rA<DkC'
+2024-12-05 21:46:49,986 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, 123, 123, 123, 'qV!;/'], 'separator': ' '}, Error: sequence item 0: expected str instance, NoneType found
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [22, 99, 47, 99], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,986 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'x%1R7': 40, 'PiP#G': 92, '2:9$-': 96, ',p(T/': 77, '),Hzi': 36, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'x%1R7': 40, 'PiP#G': 92, '2:9$-': 96, ',p(T/': 77, '),Hzi': 36, 'key': 'value'}
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: float, Inputs: {'input': None}, Error: float() argument must be a string or a real number, not 'NoneType'
+2024-12-05 21:46:49,986 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['0lk;}', 'heELI', 'Yy(+q', 123, None], 'separator': '-'}, Error: sequence item 3: expected str instance, int found
+2024-12-05 21:46:49,986 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [95, 14, 9, 36, 52], 'index': -10}, Error: pop index out of range
+2024-12-05 21:46:49,986 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'hb[<D': 43, "'/eX(": 82, 'kYjRY': 18, '#vDC[': 9, '7K*YD': 17, ']wYX$': 89}, 'updates': {']wYX$': 89}}, Output: {'hb[<D': 43, "'/eX(": 82, 'kYjRY': 18, '#vDC[': 9, '7K*YD': 17, ']wYX$': 89}
+2024-12-05 21:46:49,986 - INFO - Forensics - Method: float, Inputs: {'input': '123.456'}, Output: 123.456
+2024-12-05 21:46:49,986 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, '7~6r~', None, None, None], 'separator': '-'}, Error: sequence item 0: expected str instance, int found
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [39, 100], 'index': 6}, Error: pop index out of range
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {'r{oh[': 61, '\\)\\(}': 22, '4T=:O': 5, 'Ciu~,': 53, '?n:gY': 51}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,987 - INFO - Forensics - Method: float, Inputs: {'input': '-11.849459031304491'}, Output: -11.849459031304491
+2024-12-05 21:46:49,987 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['&$/!R', None, 'hVF>Z', None, None], 'separator': ' '}, Error: sequence item 1: expected str instance, NoneType found
+2024-12-05 21:46:49,987 - INFO - Forensics - Method: list.pop, Inputs: {'list': [65, 73, 30, 17, 99, 30], 'index': 2}, Output: 85
+2024-12-05 21:46:49,987 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'j]A9f': 60, "6'i|7": 52, '&r2m,': 28, 'hr]Cf': 86, '`ez"_': 17, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'j]A9f': 60, "6'i|7": 52, '&r2m,': 28, 'hr]Cf': 86, '`ez"_': 17, 'key': 'value'}
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: float, Inputs: {'input': '&7i<7"V.m4'}, Error: could not convert string to float: '&7i<7"V.m4'
+2024-12-05 21:46:49,987 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, 'W{[64', None, 123, 'G[dP/'], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [28, 99, 81, 31, 2], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,987 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'imQmO': 92, 'CKprA': 2, '5+sA*': 59, '~S3nB': 32, 'o-E;|': 87, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'imQmO': 92, 'CKprA': 2, '5+sA*': 59, '~S3nB': 32, 'o-E;|': 87, 'key': 'value'}
+2024-12-05 21:46:49,987 - INFO - Forensics - Method: float, Inputs: {'input': '-474.4023770211119'}, Output: -474.4023770211119
+2024-12-05 21:46:49,987 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,987 - INFO - Forensics - Method: str.join, Inputs: {'list': ['yjMG\\', '&07I3', 'A4j@~', 'y5|);', 'w0(#7'], 'separator': '-'}, Output: yjMG\-&07I3-A4j@~-y5|);-w0(#7
+2024-12-05 21:46:49,987 - INFO - Forensics - Method: list.pop, Inputs: {'list': [38], 'index': 0}, Output: 75
+2024-12-05 21:46:49,987 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'3i%;R': 13, 'Saz0F': 8, 'cS#1V': 8, '20Bgz': 9, ';}_<-': 60, 'QcHXc': 78}, 'updates': {'QcHXc': 78}}, Output: {'3i%;R': 13, 'Saz0F': 8, 'cS#1V': 8, '20Bgz': 9, ';}_<-': 60, 'QcHXc': 78}
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: float, Inputs: {'input': "Kf{h.BNnh'"}, Error: could not convert string to float: "Kf{h.BNnh'"
+2024-12-05 21:46:49,987 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,987 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, None, 123, '7N]A.', 'KZ$Ck'], 'separator': '-'}, Error: sequence item 0: expected str instance, NoneType found
+2024-12-05 21:46:49,987 - INFO - Forensics - Method: list.pop, Inputs: {'list': [86, 77, 0, 27, 97, 93, 10, 88], 'index': -4}, Output: 28
+2024-12-05 21:46:49,987 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'@GAS-': 70, 'HjbGE': 40, 'N\\zx2': 10, 'BrFvh': 35, 'G+JLi': 47, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'@GAS-': 70, 'HjbGE': 40, 'N\\zx2': 10, 'BrFvh': 35, 'G+JLi': 47, 'key': 'value'}
+2024-12-05 21:46:49,987 - INFO - Forensics - Method: float, Inputs: {'input': '414.9448273264054'}, Output: 414.9448273264054
+2024-12-05 21:46:49,987 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['f/qb:', None, '4]K0_', None, 123], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,988 - INFO - Forensics - Method: list.pop, Inputs: {'list': [56, 30, 40, 33, 35, 81, 5], 'index': 1}, Output: 13
+2024-12-05 21:46:49,988 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'c}>4r': 58, 'E]eR"': 12, 'VZ\\-<': 12, '2L#8O': 76, 'Ba)Hw': 44, '+K$4t': 91}, 'updates': {'+K$4t': 91}}, Output: {'c}>4r': 58, 'E]eR"': 12, 'VZ\\-<': 12, '2L#8O': 76, 'Ba)Hw': 44, '+K$4t': 91}
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: float, Inputs: {'input': None}, Error: float() argument must be a string or a real number, not 'NoneType'
+2024-12-05 21:46:49,988 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['o>QsO', None, "f'7Q_", '3WNRm', None], 'separator': ' '}, Error: sequence item 1: expected str instance, NoneType found
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [], 'index': 2}, Error: pop from empty list
+2024-12-05 21:46:49,988 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'3Q(H0': 77, 'G~4%W': 90, 'M0s]`': 56, 'Q(~?z': 62, "'`Mv+": 82, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'3Q(H0': 77, 'G~4%W': 90, 'M0s]`': 56, 'Q(~?z': 62, "'`Mv+": 82, 'key': 'value'}
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: float, Inputs: {'input': "BfG!Z'p*8-"}, Error: could not convert string to float: "BfG!Z'p*8-"
+2024-12-05 21:46:49,988 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, '?]$j9', 'N]KGE', 123, None], 'separator': ' '}, Error: sequence item 0: expected str instance, NoneType found
+2024-12-05 21:46:49,988 - INFO - Forensics - Method: list.pop, Inputs: {'list': [51, 53, 86, 90, 37, 19, 91, 78], 'index': 8}, Output: 95
+2024-12-05 21:46:49,988 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'^u<_,': 62, '[fvLo': 48, '9W>:+': 27, '5R[MO': 7, 'e$yQl': 50, 'LrsU}': 30}, 'updates': {'LrsU}': 30}}, Output: {'^u<_,': 62, '[fvLo': 48, '9W>:+': 27, '5R[MO': 7, 'e$yQl': 50, 'LrsU}': 30}
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: float, Inputs: {'input': None}, Error: float() argument must be a string or a real number, not 'NoneType'
+2024-12-05 21:46:49,988 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, 'pTy>6', 123, None, None], 'separator': '-'}, Error: sequence item 0: expected str instance, int found
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [10, 99, 78, 64], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,988 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'`N-.1': 20, '7b26a': 8, '\\Vgtg': 39, '\\Z=Yd': 53, '1Nmg}': 6, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'`N-.1': 20, '7b26a': 8, '\\Vgtg': 39, '\\Z=Yd': 53, '1Nmg}': 6, 'key': 'value'}
+2024-12-05 21:46:49,988 - INFO - Forensics - Method: float, Inputs: {'input': '123.456'}, Output: 123.456
+2024-12-05 21:46:49,988 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, None, 123, None, None], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [66], 'index': 1}, Error: pop index out of range
+2024-12-05 21:46:49,988 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'C1x3L': 73, 'N5ABO': 89, 'KD\\o3': 36, '4}4@n': 53, 'YgAM<': 67, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'C1x3L': 73, 'N5ABO': 89, 'KD\\o3': 36, '4}4@n': 53, 'YgAM<': 67, 'key': 'value'}
+2024-12-05 21:46:49,988 - ERROR - Forensics - Method: float, Inputs: {'input': 'h>3c6*FRT0'}, Error: could not convert string to float: 'h>3c6*FRT0'
+2024-12-05 21:46:49,988 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['g~*[c', None, '>(OE4', '/:q_c', 123], 'separator': '-'}, Error: sequence item 1: expected str instance, NoneType found
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [4, 82, 30, 80, 88, 49, 49, 69, 58, 83], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,989 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {"m1ug'": 94, 'X>8A2': 62, '1._K2': 34, 'ee_J<': 38, '~#?VG': 35, 'ZyIW+': 21}, 'updates': {'ZyIW+': 21}}, Output: {"m1ug'": 94, 'X>8A2': 62, '1._K2': 34, 'ee_J<': 38, '~#?VG': 35, 'ZyIW+': 21}
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: float, Inputs: {'input': 'kj-8.O[}i9'}, Error: could not convert string to float: 'kj-8.O[}i9'
+2024-12-05 21:46:49,989 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, 123, 123, 's3+$*', 'j"xC;'], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,989 - INFO - Forensics - Method: list.pop, Inputs: {'list': [82, 9, 70, 42, 27, 27, 43, 89], 'index': 2}, Output: 66
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {'6p6e3': 19, 'ypY+5': 31, 'YT(Gd': 97, 'p-(hf': 70, ':L3dI': 30}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,989 - INFO - Forensics - Method: float, Inputs: {'input': '-274.78589564996093'}, Output: -274.78589564996093
+2024-12-05 21:46:49,989 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['x%N~N', '4HPCO', '?:~Uf', '*|tye', '=1KG}'], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,989 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'2@j&N': 86, '`//2I': 31, 'rUeiN': 33, 'e*{!+': 90, '8#w||': 90, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'2@j&N': 86, '`//2I': 31, 'rUeiN': 33, 'e*{!+': 90, '8#w||': 90, 'key': 'value'}
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: float, Inputs: {'input': '~[BN_ee)ay'}, Error: could not convert string to float: '~[BN_ee)ay'
+2024-12-05 21:46:49,989 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, 'n\\yiR', None, 123, 123], 'separator': ' '}, Error: sequence item 0: expected str instance, NoneType found
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [], 'index': 9}, Error: pop from empty list
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {'oXChn': 83, 'SnMBv': 56, 'p12Xe': 37, '7=|vH': 14, '8q{yr': 77}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,989 - INFO - Forensics - Method: float, Inputs: {'input': '-108.53017200226975'}, Output: -108.53017200226975
+2024-12-05 21:46:49,989 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['R=CZ0', 123, '<<?o?', 'isd"q', 123], 'separator': ' '}, Error: sequence item 1: expected str instance, int found
+2024-12-05 21:46:49,989 - INFO - Forensics - Method: list.pop, Inputs: {'list': [24, 30, 75, 100, 37, 75, 23, 60, 64], 'index': -4}, Output: 66
+2024-12-05 21:46:49,989 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'Lq,B`': 33, 'p)2/o': 0, "2'cKA": 92, "L't$r": 3, 'N"}"K': 13, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'Lq,B`': 33, 'p)2/o': 0, "2'cKA": 92, "L't$r": 3, 'N"}"K': 13, 'key': 'value'}
+2024-12-05 21:46:49,989 - ERROR - Forensics - Method: float, Inputs: {'input': None}, Error: float() argument must be a string or a real number, not 'NoneType'
+2024-12-05 21:46:49,989 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['haJ3<', 123, 123, None, 'A+y2}'], 'separator': ' '}, Error: sequence item 1: expected str instance, int found
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [65, 93], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {'iVOw=': 19, 'I[j+F': 60, 'nvmF~': 84, 'l({&{': 88, '-N1a[': 98}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,990 - INFO - Forensics - Method: float, Inputs: {'input': '-425.55318375998127'}, Output: -425.55318375998127
+2024-12-05 21:46:49,990 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, None, None, 123, None], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,990 - INFO - Forensics - Method: list.pop, Inputs: {'list': [100], 'index': -1}, Output: 92
+2024-12-05 21:46:49,990 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'(2h4_': 69, ';1:<y': 88, 'S[Uxn': 33, '_v/8X': 61, 'tFV}A': 53, 'XN7Lk': 86}, 'updates': {'XN7Lk': 86}}, Output: {'(2h4_': 69, ';1:<y': 88, 'S[Uxn': 33, '_v/8X': 61, 'tFV}A': 53, 'XN7Lk': 86}
+2024-12-05 21:46:49,990 - INFO - Forensics - Method: float, Inputs: {'input': '-789.8893820693063'}, Output: -789.8893820693063
+2024-12-05 21:46:49,990 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['$]j`K', '=>Lp]', 123, '9P`em', 123], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [72, 9, 8, 8, 87, 56, 74], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {':Na!)': 99, '*)13P': 80, 'h}uwm': 98, 'Q{;q_': 7, '$.y&m': 99}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,990 - INFO - Forensics - Method: float, Inputs: {'input': '-410.94244097730325'}, Output: -410.94244097730325
+2024-12-05 21:46:49,990 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['}):Zu', 'zzI[D', 123, 123, None], 'separator': '-'}, Error: sequence item 2: expected str instance, int found
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [16, 27, 56, 28, 31, 60, 52, 0, 31, 17], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,990 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'ZO<oZ': 78, 'w^KQR': 53, ',;}DJ': 74, '(/Cft': 32, 'S+"E-': 92, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'ZO<oZ': 78, 'w^KQR': 53, ',;}DJ': 74, '(/Cft': 32, 'S+"E-': 92, 'key': 'value'}
+2024-12-05 21:46:49,990 - INFO - Forensics - Method: float, Inputs: {'input': '-493.4292615919045'}, Output: -493.4292615919045
+2024-12-05 21:46:49,990 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, 123, '$ik3R', None, '1Y-ke'], 'separator': ' '}, Error: sequence item 0: expected str instance, int found
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [63, 50, 44], 'index': -5}, Error: pop index out of range
+2024-12-05 21:46:49,990 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'>FEyy': 46, ',6Q$(': 29, "3uY]'": 42, 'Z0mn~': 74, '#(\\$9': 63, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'>FEyy': 46, ',6Q$(': 29, "3uY]'": 42, 'Z0mn~': 74, '#(\\$9': 63, 'key': 'value'}
+2024-12-05 21:46:49,990 - INFO - Forensics - Method: float, Inputs: {'input': '123.456'}, Output: 123.456
+2024-12-05 21:46:49,990 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,990 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, None, 123, '/jKCP', 123], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,991 - INFO - Forensics - Method: list.pop, Inputs: {'list': [19, 17, 81, 88, 82, 70], 'index': -4}, Output: 68
+2024-12-05 21:46:49,991 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'gbi&<': 8, '6N/bN': 23, 'PxQSa': 91, 't]k4W': 55, 'wo}ga': 53, '.twgG': 14}, 'updates': {'.twgG': 14}}, Output: {'gbi&<': 8, '6N/bN': 23, 'PxQSa': 91, 't]k4W': 55, 'wo}ga': 53, '.twgG': 14}
+2024-12-05 21:46:49,991 - INFO - Forensics - Method: float, Inputs: {'input': '123.456'}, Output: 123.456
+2024-12-05 21:46:49,991 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, '%HVQ\\', 123, '6t1,T', 'y*!zo'], 'separator': ' '}, Error: sequence item 0: expected str instance, NoneType found
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [93, 93], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {'7HPU]': 43, 'HGI7G': 37, 'W<0k&': 15, 'H1c=G': 20, '}M&b!': 24}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: float, Inputs: {'input': '8N5UGW0/=0'}, Error: could not convert string to float: '8N5UGW0/=0'
+2024-12-05 21:46:49,991 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, 'h"A>^', 123, 123, None], 'separator': '-'}, Error: sequence item 0: expected str instance, int found
+2024-12-05 21:46:49,991 - INFO - Forensics - Method: list.pop, Inputs: {'list': [5, 28], 'index': -1}, Output: 72
+2024-12-05 21:46:49,991 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'O\\TqA': 53, 'Ancq4': 47, 'PV&|A': 89, '}jwbQ': 19, ',pw(b': 42, '}6%^,': 53}, 'updates': {'}6%^,': 53}}, Output: {'O\\TqA': 53, 'Ancq4': 47, 'PV&|A': 89, '}jwbQ': 19, ',pw(b': 42, '}6%^,': 53}
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: float, Inputs: {'input': '4WRWAXvnd)'}, Error: could not convert string to float: '4WRWAXvnd)'
+2024-12-05 21:46:49,991 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, None, 123, 'n@zKW', None], 'separator': '-'}, Error: sequence item 0: expected str instance, NoneType found
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [74, 17, 15, 49], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,991 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'m,R(V': 69, 'KEr7x': 22, 'Q6c<X': 70, '5XeG"': 15, 'bK.yZ': 23, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'m,R(V': 69, 'KEr7x': 22, 'Q6c<X': 70, '5XeG"': 15, 'bK.yZ': 23, 'key': 'value'}
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: float, Inputs: {'input': 'A>VK%e/c71'}, Error: could not convert string to float: 'A>VK%e/c71'
+2024-12-05 21:46:49,991 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['!mUh/', 'MOl[s', 123, 123, '&2)vs'], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [94, 75, 7], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {'cPr?Z': 40, 'a/MGe': 11, 'uU80R': 19, ':&X\\t': 28, 'q`jso': 24}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: float, Inputs: {'input': "}P&nW'U|3["}, Error: could not convert string to float: "}P&nW'U|3["
+2024-12-05 21:46:49,991 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,991 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['ix-&]', 'D<k6c', None, 123, 'sFpdx'], 'separator': '-'}, Error: sequence item 2: expected str instance, NoneType found
+2024-12-05 21:46:49,992 - INFO - Forensics - Method: list.pop, Inputs: {'list': [80, 4, 63], 'index': -2}, Output: 47
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {'+:m]Q': 10, '!`63b': 58, 'Ch+Uy': 43, ',#R`c': 99, '^.">E': 97}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,992 - INFO - Forensics - Method: float, Inputs: {'input': '123.456'}, Output: 123.456
+2024-12-05 21:46:49,992 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, '>znJK', 123, None, 123], 'separator': ' '}, Error: sequence item 0: expected str instance, int found
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [], 'index': 2}, Error: pop from empty list
+2024-12-05 21:46:49,992 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'x>@{r': 92, '[R:x~': 34, 'hF@^[': 27, '\\npJU': 49, 'IUk~%': 78, 'L++r3': 66}, 'updates': {'L++r3': 66}}, Output: {'x>@{r': 92, '[R:x~': 34, 'hF@^[': 27, '\\npJU': 49, 'IUk~%': 78, 'L++r3': 66}
+2024-12-05 21:46:49,992 - INFO - Forensics - Method: float, Inputs: {'input': '448.6904092970383'}, Output: 448.6904092970383
+2024-12-05 21:46:49,992 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['};vh[', 'G#bF)', 'DyI9x', '06Tm&', 'Kj%4&'], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [7, 20, 54, 39, 64], 'index': -10}, Error: pop index out of range
+2024-12-05 21:46:49,992 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'4],VP': 83, ';V4`7': 73, 'nUO2^': 61, '@NFH*': 66, 'ok(?#': 47, 'V\\<%s': 26}, 'updates': {'V\\<%s': 26}}, Output: {'4],VP': 83, ';V4`7': 73, 'nUO2^': 61, '@NFH*': 66, 'ok(?#': 47, 'V\\<%s': 26}
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: float, Inputs: {'input': ')3n,\\?IEFA'}, Error: could not convert string to float: ')3n,\\?IEFA'
+2024-12-05 21:46:49,992 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['\\A/(A', 'ojam,', 123, None, 'tPO]x'], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [99, 23, 36, 94, 63, 30, 15, 31], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,992 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'XWu$r': 43, '6`BU"': 25, ',cUc`': 26, '@*-N\\': 52, "p'!=l": 85, '<=TJv': 34}, 'updates': {'<=TJv': 34}}, Output: {'XWu$r': 43, '6`BU"': 25, ',cUc`': 26, '@*-N\\': 52, "p'!=l": 85, '<=TJv': 34}
+2024-12-05 21:46:49,992 - INFO - Forensics - Method: float, Inputs: {'input': '123.456'}, Output: 123.456
+2024-12-05 21:46:49,992 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, None, 123, 123, 123], 'separator': ' '}, Error: sequence item 0: expected str instance, NoneType found
+2024-12-05 21:46:49,992 - INFO - Forensics - Method: list.pop, Inputs: {'list': [13, 70, 9, 100, 9, 61, 64, 8, 76], 'index': -7}, Output: 47
+2024-12-05 21:46:49,992 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {';RF\\-': 52, '9tCCR': 85, '.@&|[': 9, 'mI{Gl': 22, 'r[.n.': 61, "R+tX'": 14}, 'updates': {"R+tX'": 14}}, Output: {';RF\\-': 52, '9tCCR': 85, '.@&|[': 9, 'mI{Gl': 22, 'r[.n.': 61, "R+tX'": 14}
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: float, Inputs: {'input': None}, Error: float() argument must be a string or a real number, not 'NoneType'
+2024-12-05 21:46:49,992 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,992 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['qP|?*', 123, 123, '?y8RE', 'tg2Jf'], 'separator': ' '}, Error: sequence item 1: expected str instance, int found
+2024-12-05 21:46:49,993 - INFO - Forensics - Method: list.pop, Inputs: {'list': [10, 64], 'index': 1}, Output: 1
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {"$/'Cd": 27, '3X8_r': 11, 'gO!{D': 43, 'FnK&f': 8, '<*f>u': 63}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,993 - INFO - Forensics - Method: float, Inputs: {'input': '123.456'}, Output: 123.456
+2024-12-05 21:46:49,993 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, 'q=K/i', 123, '>tj*P', None], 'separator': ' '}, Error: sequence item 0: expected str instance, NoneType found
+2024-12-05 21:46:49,993 - INFO - Forensics - Method: list.pop, Inputs: {'list': [40, 71, 39, 94, 75, 75], 'index': -2}, Output: 78
+2024-12-05 21:46:49,993 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'##qcz': 94, '=l)t6': 81, 'K7r#C': 91, 'Mn\\&T': 55, '#,1st': 100, ']ww}t': 92}, 'updates': {']ww}t': 92}}, Output: {'##qcz': 94, '=l)t6': 81, 'K7r#C': 91, 'Mn\\&T': 55, '#,1st': 100, ']ww}t': 92}
+2024-12-05 21:46:49,993 - INFO - Forensics - Method: float, Inputs: {'input': '-677.6303746607557'}, Output: -677.6303746607557
+2024-12-05 21:46:49,993 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, 123, 123, None, None], 'separator': ' '}, Error: sequence item 0: expected str instance, NoneType found
+2024-12-05 21:46:49,993 - INFO - Forensics - Method: list.pop, Inputs: {'list': [63, 36, 30, 38, 49, 39], 'index': -6}, Output: 68
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {'yb<|M': 3, 'Y~)E0': 86, 'NM_Y<': 89, '"jYRa': 16, 'IB>G(': 96}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: float, Inputs: {'input': 'r&z_X!Y?+?'}, Error: could not convert string to float: 'r&z_X!Y?+?'
+2024-12-05 21:46:49,993 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['LqNhh', None, 123, '>BYKD', None], 'separator': ' '}, Error: sequence item 1: expected str instance, NoneType found
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [48, 0, 93, 22, 40, 31, 66, 24, 1], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {'vF?q^': 81, ';AQ/p': 6, '!$bm6': 56, '!mzzy': 1, 'Qdf(1': 68}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,993 - INFO - Forensics - Method: float, Inputs: {'input': '-145.43958814548887'}, Output: -145.43958814548887
+2024-12-05 21:46:49,993 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['VnKDC', 123, 'v_P+_', 'pRZqm', 123], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,993 - INFO - Forensics - Method: list.pop, Inputs: {'list': [51, 24, 66, 6, 71, 50, 84], 'index': -8}, Output: 10
+2024-12-05 21:46:49,993 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'Vb@6d': 47, 'EQL#Z': 93, 'MFIL*': 61, 'F=<gU': 24, 'D?FK:': 65, '{s91m': 82}, 'updates': {'{s91m': 82}}, Output: {'Vb@6d': 47, 'EQL#Z': 93, 'MFIL*': 61, 'F=<gU': 24, 'D?FK:': 65, '{s91m': 82}
+2024-12-05 21:46:49,993 - INFO - Forensics - Method: float, Inputs: {'input': '-736.8345863150507'}, Output: -736.8345863150507
+2024-12-05 21:46:49,993 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,993 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, 123, None, None, 123], 'separator': '-'}, Error: sequence item 0: expected str instance, int found
+2024-12-05 21:46:49,993 - INFO - Forensics - Method: list.pop, Inputs: {'list': [25, 73, 43, 37, 84, 91, 93, 50], 'index': -7}, Output: 98
+2024-12-05 21:46:49,993 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'Gtp48': 73, '~*/m+': 3, '&Sm|2': 87, 'A_F;M': 28, '/6Cs0': 40, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'Gtp48': 73, '~*/m+': 3, '&Sm|2': 87, 'A_F;M': 28, '/6Cs0': 40, 'key': 'value'}
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: float, Inputs: {'input': 'X[/($g?r4b'}, Error: could not convert string to float: 'X[/($g?r4b'
+2024-12-05 21:46:49,994 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['DTlR$', 'T"dkX', '={&1,', '5j<^I', '\\}O?g'], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [83, 21, 57, 22, 60], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,994 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {"]'3(<": 95, '?fc+L': 93, 'hl[.h': 26, '{Q6>L': 79, "';.v-": 68, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {"]'3(<": 95, '?fc+L': 93, 'hl[.h': 26, '{Q6>L': 79, "';.v-": 68, 'key': 'value'}
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: float, Inputs: {'input': None}, Error: float() argument must be a string or a real number, not 'NoneType'
+2024-12-05 21:46:49,994 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, None, 'gUKM!', None, '^#k@@'], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [74, 19, 84, 14, 9, 12, 56, 80, 52, 41], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {'8/O|6': 81, '4Qy,k': 70, '4F&mj': 83, '+E^-#': 91, 'vZZ8w': 45}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,994 - INFO - Forensics - Method: float, Inputs: {'input': '-388.08230685323247'}, Output: -388.08230685323247
+2024-12-05 21:46:49,994 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, 123, None, 'D!%*{', 123], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [88], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,994 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'1@X79': 45, '~`zc~': 92, '-(a?J': 73, 'Pbm{#': 1, '&LqVw': 42, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'1@X79': 45, '~`zc~': 92, '-(a?J': 73, 'Pbm{#': 1, '&LqVw': 42, 'key': 'value'}
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: float, Inputs: {'input': 'OFz?___72b'}, Error: could not convert string to float: 'OFz?___72b'
+2024-12-05 21:46:49,994 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, 123, 123, 123, '_]:5)'], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [23, 53, 54, 23, 82, 63, 30, 100], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,994 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'pr7oj': 43, 'T,8o$': 17, 'X9!>R': 9, '#I+-P': 9, '>&15d': 60, 'ztVCu': 34}, 'updates': {'ztVCu': 34}}, Output: {'pr7oj': 43, 'T,8o$': 17, 'X9!>R': 9, '#I+-P': 9, '>&15d': 60, 'ztVCu': 34}
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: float, Inputs: {'input': ',X`(GK273*'}, Error: could not convert string to float: ',X`(GK273*'
+2024-12-05 21:46:49,994 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,994 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, 123, None, None, '<lk$b'], 'separator': '-'}, Error: sequence item 0: expected str instance, NoneType found
+2024-12-05 21:46:49,995 - INFO - Forensics - Method: list.pop, Inputs: {'list': [70, 54, 26, 60, 53, 27, 29, 71], 'index': -7}, Output: 12
+2024-12-05 21:46:49,995 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'"1M.3': 77, 'E<F16': 79, 'k_r;k': 95, 'GRAm=': 54, 'Z?~!^': 96, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'"1M.3': 77, 'E<F16': 79, 'k_r;k': 95, 'GRAm=': 54, 'Z?~!^': 96, 'key': 'value'}
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: float, Inputs: {'input': 'sYmspTQ8`['}, Error: could not convert string to float: 'sYmspTQ8`['
+2024-12-05 21:46:49,995 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, 123, '`M|n)', None, '2LoK-'], 'separator': ' '}, Error: sequence item 0: expected str instance, int found
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [42, 35, 95, 96, 33, 13, 13, 93], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {'lU4Rr': 93, '[-4S>': 46, '|OjQ/': 77, '=QP*U': 54, '14>D{': 65}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,995 - INFO - Forensics - Method: float, Inputs: {'input': '846.1651140432007'}, Output: 846.1651140432007
+2024-12-05 21:46:49,995 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, None, None, None, 'SqHIW'], 'separator': ' '}, Error: sequence item 0: expected str instance, int found
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [98], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,995 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'T:cpC': 77, 'd3P|q': 38, 'n**^b': 34, '8\\+jJ': 40, 'L<dW"': 31, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'T:cpC': 77, 'd3P|q': 38, 'n**^b': 34, '8\\+jJ': 40, 'L<dW"': 31, 'key': 'value'}
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: float, Inputs: {'input': None}, Error: float() argument must be a string or a real number, not 'NoneType'
+2024-12-05 21:46:49,995 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['%*W>h', None, None, 123, 123], 'separator': ' '}, Error: sequence item 1: expected str instance, NoneType found
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [], 'index': -5}, Error: pop from empty list
+2024-12-05 21:46:49,995 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'mEV2W': 72, 'MbAQG': 89, '}P$6-': 21, 'HhVC:': 78, 'EgCty': 23, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'mEV2W': 72, 'MbAQG': 89, '}P$6-': 21, 'HhVC:': 78, 'EgCty': 23, 'key': 'value'}
+2024-12-05 21:46:49,995 - INFO - Forensics - Method: float, Inputs: {'input': '956.2511724959174'}, Output: 956.2511724959174
+2024-12-05 21:46:49,995 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['pIAys', None, None, None, 'Sk&b1'], 'separator': '-'}, Error: sequence item 1: expected str instance, NoneType found
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [90, 97, 4, 24, 70], 'index': -7}, Error: pop index out of range
+2024-12-05 21:46:49,995 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'1{+z*': 43, '9EOAY': 54, 'Hn0cS': 56, 'y,9zT': 45, '1RQXy': 54, 'BMl/&': 28}, 'updates': {'BMl/&': 28}}, Output: {'1{+z*': 43, '9EOAY': 54, 'Hn0cS': 56, 'y,9zT': 45, '1RQXy': 54, 'BMl/&': 28}
+2024-12-05 21:46:49,995 - ERROR - Forensics - Method: float, Inputs: {'input': '}@*_[d-,~&'}, Error: could not convert string to float: '}@*_[d-,~&'
+2024-12-05 21:46:49,995 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, '@c(9,', None, None, 123], 'separator': ' '}, Error: sequence item 0: expected str instance, int found
+2024-12-05 21:46:49,996 - INFO - Forensics - Method: list.pop, Inputs: {'list': [9, 77, 3, 2, 95, 60, 3, 96, 39], 'index': 7}, Output: 78
+2024-12-05 21:46:49,996 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'y[W0/': 56, 'IsQP}': 70, '\\$YH2': 35, 'T]NXb': 6, 'Kx6":': 95, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'y[W0/': 56, 'IsQP}': 70, '\\$YH2': 35, 'T]NXb': 6, 'Kx6":': 95, 'key': 'value'}
+2024-12-05 21:46:49,996 - INFO - Forensics - Method: float, Inputs: {'input': '500.6098230512591'}, Output: 500.6098230512591
+2024-12-05 21:46:49,996 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, None, None, 123, None], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [93, 32, 35, 42, 51], 'index': 7}, Error: pop index out of range
+2024-12-05 21:46:49,996 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'<@9T-': 44, 'asXts': 21, 'VX2p@': 24, ';B`DS': 74, 'm,n}\\': 40, '|g\\jI': 55}, 'updates': {'|g\\jI': 55}}, Output: {'<@9T-': 44, 'asXts': 21, 'VX2p@': 24, ';B`DS': 74, 'm,n}\\': 40, '|g\\jI': 55}
+2024-12-05 21:46:49,996 - INFO - Forensics - Method: float, Inputs: {'input': '123.456'}, Output: 123.456
+2024-12-05 21:46:49,996 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['C9%/{', 123, None, None, None], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [18], 'index': -8}, Error: pop index out of range
+2024-12-05 21:46:49,996 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'pF66e': 66, 'IEpy-': 10, '9|oO#': 11, '.p4?s': 5, '1Sts?': 2, '.+,s6': 34}, 'updates': {'.+,s6': 34}}, Output: {'pF66e': 66, 'IEpy-': 10, '9|oO#': 11, '.p4?s': 5, '1Sts?': 2, '.+,s6': 34}
+2024-12-05 21:46:49,996 - INFO - Forensics - Method: float, Inputs: {'input': '123.456'}, Output: 123.456
+2024-12-05 21:46:49,996 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, 'w4C\\f', 123, 123, 123], 'separator': '-'}, Error: sequence item 0: expected str instance, NoneType found
+2024-12-05 21:46:49,996 - INFO - Forensics - Method: list.pop, Inputs: {'list': [37, 27, 13, 50, 85, 54, 70], 'index': -7}, Output: 26
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {'pNmE&': 73, '3Mm/A': 63, ',t1(t': 56, '6Kye]': 82, 'W.S4W': 4}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: float, Inputs: {'input': None}, Error: float() argument must be a string or a real number, not 'NoneType'
+2024-12-05 21:46:49,996 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,996 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['d8MR<', ':}#\\/', '\\;`xq', None, None], 'separator': '-'}, Error: sequence item 3: expected str instance, NoneType found
+2024-12-05 21:46:49,996 - INFO - Forensics - Method: list.pop, Inputs: {'list': [56, 85, 36, 48, 90, 2, 69, 82, 81], 'index': -6}, Output: 72
+2024-12-05 21:46:49,996 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'6E"i:': 100, 'w`=Su': 49, 'yaLBG': 7, '^j5E6': 93, '^3QuO': 78, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'6E"i:': 100, 'w`=Su': 49, 'yaLBG': 7, '^j5E6': 93, '^3QuO': 78, 'key': 'value'}
+2024-12-05 21:46:49,996 - INFO - Forensics - Method: float, Inputs: {'input': '583.9286368995101'}, Output: 583.9286368995101
+2024-12-05 21:46:49,996 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, 'mGrki', 'eiBp/', 123, 123], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [94, 12, 39, 74], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {'_~RO}': 18, 'Q_+RA': 62, '!=R@Y': 28, '(H*E<': 23, 'vJL[V': 30}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,997 - INFO - Forensics - Method: float, Inputs: {'input': '-230.33906800420323'}, Output: -230.33906800420323
+2024-12-05 21:46:49,997 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, '39n!"', 123, '(iPHQ', '^^)|V'], 'separator': '-'}, Error: sequence item 0: expected str instance, int found
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [4, 95, 74, 88, 74, 29, 45, 90], 'index': 9}, Error: pop index out of range
+2024-12-05 21:46:49,997 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'H9%Ck': 91, 'Qp~p3': 70, '=S[D&': 21, '+DA~j': 66, '3mVfl': 9, 'ARudI': 97}, 'updates': {'ARudI': 97}}, Output: {'H9%Ck': 91, 'Qp~p3': 70, '=S[D&': 21, '+DA~j': 66, '3mVfl': 9, 'ARudI': 97}
+2024-12-05 21:46:49,997 - INFO - Forensics - Method: float, Inputs: {'input': '123.456'}, Output: 123.456
+2024-12-05 21:46:49,997 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, None, 123, 123, 123], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [72, 13, 0, 37, 39, 90, 47], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,997 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'DbpT{': 35, 'VGkCi': 18, '2Gp1C': 57, 'q{1nd': 19, '?@bM-': 50, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'DbpT{': 35, 'VGkCi': 18, '2Gp1C': 57, 'q{1nd': 19, '?@bM-': 50, 'key': 'value'}
+2024-12-05 21:46:49,997 - INFO - Forensics - Method: float, Inputs: {'input': '123.456'}, Output: 123.456
+2024-12-05 21:46:49,997 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, None, 'E[TP(', None, None], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [28, 61, 55, 34, 0], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: dict.update, Inputs: {'dict': {'XG%Y&': 9, '2;=LR': 74, "s^GG'": 28, '>v7D)': 49, 'hjmC7': 45}, 'updates': None}, Error: 'NoneType' object is not iterable
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: float, Inputs: {'input': '_fyW`}J8pu'}, Error: could not convert string to float: '_fyW`}J8pu'
+2024-12-05 21:46:49,997 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,997 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['yn}&M', 'GbZ<X', None, 123, None], 'separator': ' '}, Error: sequence item 2: expected str instance, NoneType found
+2024-12-05 21:46:49,997 - INFO - Forensics - Method: list.pop, Inputs: {'list': [15, 90, 30, 12, 64, 51, 25], 'index': 5}, Output: 19
+2024-12-05 21:46:49,997 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'>p(S#': 21, '.z~ql': 89, '#.kVv': 96, 'Agxn1': 78, '\\0U/e': 15, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'>p(S#': 21, '.z~ql': 89, '#.kVv': 96, 'Agxn1': 78, '\\0U/e': 15, 'key': 'value'}
+2024-12-05 21:46:49,997 - INFO - Forensics - Method: float, Inputs: {'input': '123.456'}, Output: 123.456
+2024-12-05 21:46:49,997 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,998 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,998 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,998 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,998 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,998 - ERROR - Forensics - Method: str.join, Inputs: {'list': ['{WX6M', None, 'N$#^o', '~\\<G\\', None], 'separator': None}, Error: 'NoneType' object has no attribute 'join'
+2024-12-05 21:46:49,998 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [23, 38, 34, 39], 'index': None}, Error: 'NoneType' object cannot be interpreted as an integer
+2024-12-05 21:46:49,998 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {'@Zp8t': 49, 'A}9<Q': 19, "er3T'": 45, 'KocHa': 3, 'T6"To': 67, 'key': 'value'}, 'updates': [('key', 'value')]}, Output: {'@Zp8t': 49, 'A}9<Q': 19, "er3T'": 45, 'KocHa': 3, 'T6"To': 67, 'key': 'value'}
+2024-12-05 21:46:49,998 - INFO - Forensics - Method: float, Inputs: {'input': '123.456'}, Output: 123.456
+2024-12-05 21:46:49,998 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,998 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,998 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,998 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,998 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,998 - ERROR - Forensics - Method: str.join, Inputs: {'list': [None, 123, 123, None, 123], 'separator': ' '}, Error: sequence item 0: expected str instance, NoneType found
+2024-12-05 21:46:49,998 - ERROR - Forensics - Method: list.pop, Inputs: {'list': [46, 93], 'index': 5}, Error: pop index out of range
+2024-12-05 21:46:49,998 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {"_'g9D": 43, 'mdG0m': 3, '}|-=C': 57, '~K~MY': 40, '1.<7z': 54, 'f_fGY': 88}, 'updates': {'f_fGY': 88}}, Output: {"_'g9D": 43, 'mdG0m': 3, '}|-=C': 57, '~K~MY': 40, '1.<7z': 54, 'f_fGY': 88}
+2024-12-05 21:46:49,998 - ERROR - Forensics - Method: float, Inputs: {'input': None}, Error: float() argument must be a string or a real number, not 'NoneType'
+2024-12-05 21:46:49,998 - INFO - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'valid_script.py'}, Output: True
+2024-12-05 21:46:49,998 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'invalid_script.py'}, Error: '(' was never closed (<unknown>, line 1)
+2024-12-05 21:46:49,998 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': 'non_existent_file.py'}, Error: [Errno 2] No such file or directory: 'non_existent_file.py'
+2024-12-05 21:46:49,998 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': None}, Error: expected str, bytes or os.PathLike object, not NoneType
+2024-12-05 21:46:49,998 - ERROR - Forensics - Method: checkIfParsablePython, Inputs: {'file': ''}, Error: [Errno 2] No such file or directory: ''
+2024-12-05 21:46:49,998 - ERROR - Forensics - Method: str.join, Inputs: {'list': [123, 123, 'DO`B#', None, 'G\\j7i'], 'separator': '-'}, Error: sequence item 0: expected str instance, int found
+2024-12-05 21:46:49,998 - INFO - Forensics - Method: list.pop, Inputs: {'list': [21, 100, 45, 70, 98, 27], 'index': -7}, Output: 45
+2024-12-05 21:46:49,998 - INFO - Forensics - Method: dict.update, Inputs: {'dict': {"L*,'Q": 87, 'T_i`h': 75, 'A<B_2': 58, '4J!/i': 55, '`>qk9': 26, '6$UjI': 16}, 'updates': {'6$UjI': 16}}, Output: {"L*,'Q": 87, 'T_i`h': 75, 'A<B_2': 58, '4J!/i': 55, '`>qk9': 26, '6$UjI': 16}
+2024-12-05 21:46:49,998 - ERROR - Forensics - Method: float, Inputs: {'input': None}, Error: float() argument must be a string or a real number, not 'NoneType'
+2024-12-05 21:46:50,000 - INFO - Bug report saved to fuzz_report.csv
