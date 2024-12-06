@@ -1,5 +1,4 @@
 
-![Aspose Words a24c1642-e5ec-4825-8036-44a419b48d93 001](https://github.com/user-attachments/assets/09d5c4b7-f41c-4ee7-b802-df289d48d350)
 
 
 **Software Quality Assurance ![ref1](COMP 6710)** 
@@ -32,7 +31,7 @@ A set of workflows was configured to automate static analysis, fuzz testing, and
 
 By integrating these activities, the project highlights a well-rounded approach to software quality assurance. It leverages static analysis, fuzz testing, forensic logging, and automation via continuous integration pipelines to uphold coding best practices. The outcomes and lessons learned through this integration are comprehensively documented in the accompanying project report. 
 
-**Project  for  Software  Quality  Assurance  (CSSE/6710) ![ref1]CODECRAFTERS-SQA2024-Auburn** 
+**Project  for  Software  Quality  Assurance  (CSSE/6710) CODECRAFTERS-SQA2024-Auburn** 
 
 **Task 4.a: Setting Up a Pre-Commit Hook and Conducting Security Analysis with Bandit** 
 
@@ -52,7 +51,9 @@ The objective was accomplished by integrating a Git Hook into the development pr
 **Testing the Hook**: 
 
 - Made changes to the report.py file in empirical within the repository to test the functionality of the pre-commit hook. 
-- Attempted a commit to confirm that the hook was correctly triggered and enforced the configured rules. 
+- Attempted a commit to confirm that the hook was correctly triggered and enforced the configured rules.
+- 
+![Aspose Words a24c1642-e5ec-4825-8036-44a419b48d93 003](https://github.com/user-attachments/assets/f723271f-da64-4bc1-8cfa-b0f8dad24334)
 
 **Security Analysis:** 
 
@@ -67,11 +68,10 @@ The objective was accomplished by integrating a Git Hook into the development pr
 - These steps combined reinforce code quality and security in the repository, making it better equipped for reliable and secure development. 
 - The results are stored in security-report.csv file. 
 
-![Aspose Words a24c1642-e5ec-4825-8036-44a419b48d93 002](https://github.com/user-attachments/assets/f679d58b-1062-4c71-a401-fbd7c052a650)
 
 
-![Aspose Words a24c1642-e5ec-4825-8036-44a419b48d93 003](https://github.com/user-attachments/assets/f723271f-da64-4bc1-8cfa-b0f8dad24334)
 
+ ![Aspose Words a24c1642-e5ec-4825-8036-44a419b48d93 004](https://github.com/user-attachments/assets/da6a2ea1-ab8a-4ec2-aa75-a7b512c29e85)
 
 **2. Fuzzing: ![ref1]**
 
@@ -120,8 +120,8 @@ The primary goal of this task is to develop a Python script named fuzz.py that t
 - Generates a summary report highlighting test case results and anomalies. 
 - Provides developers with actionable insights into potential vulnerabilities. 
 - This process establishes a robust framework for early detection of errors, enhancing the project's reliability and security. 
+![Aspose Words a24c1642-e5ec-4825-8036-44a419b48d93 005](https://github.com/user-attachments/assets/186145a2-106d-46d4-abda-fab7255b2b95)
 
- ![Aspose Words a24c1642-e5ec-4825-8036-44a419b48d93 004](https://github.com/user-attachments/assets/da6a2ea1-ab8a-4ec2-aa75-a7b512c29e85)
 
 
 **Task 4.c: Integrating Forensic Capabilities into Python Methods** 
@@ -161,8 +161,8 @@ The aim of this task is to enhance five selected Python methods by embedding for
 4. **Automated Reporting**: 
 - Configured the script to save logs and error summaries in fuzz\_report.csv. 
 - Structured logs offer a clear overview of method performance under varied test conditions, including edge cases. 
-![Aspose Words a24c1642-e5ec-4825-8036-44a419b48d93 005](https://github.com/user-attachments/assets/186145a2-106d-46d4-abda-fab7255b2b95)
 
+![Aspose Words a24c1642-e5ec-4825-8036-44a419b48d93 007](https://github.com/user-attachments/assets/708fd062-9fef-461a-9f8c-01e1dd8b7444)
 
 **Outcomes:** 
 
@@ -190,8 +190,9 @@ By implementing forensic logging, the project achieves a new level of robustness
 - Configured the workflow to automatically trigger on every push event to the repository. 
 - Installed all necessary project dependencies using pip based on the requirements.txt file. 
 - Executed the fuzz.py script to perform fuzz testing on the selected Python methods 
+![Aspose Words a24c1642-e5ec-4825-8036-44a419b48d93 008](https://github.com/user-attachments/assets/53c5c54a-e327-427e-a5ca-aff0e6294814)
 
-**Successful Integration:** ![ref1]
+**Successful Integration:** 
 
 - The workflow was tested and confirmed successful, as indicated by the "All checks have passed" message in the GitHub repository. 
 - Logs from the GitHub Actions dashboard show that the CI pipeline executed without errors. 
@@ -200,16 +201,14 @@ By implementing forensic logging, the project achieves a new level of robustness
 
 - Continuous Integration is now fully integrated into the repository. 
 - Each commit automatically triggers the testing pipeline, ensuring high code quality and rapid feedback on any issues. 
-![Aspose Words a24c1642-e5ec-4825-8036-44a419b48d93 007](https://github.com/user-attachments/assets/708fd062-9fef-461a-9f8c-01e1dd8b7444)
 
-![Aspose Words a24c1642-e5ec-4825-8036-44a419b48d93 008](https://github.com/user-attachments/assets/53c5c54a-e327-427e-a5ca-aff0e6294814)
 
 ![Aspose Words a24c1642-e5ec-4825-8036-44a419b48d93 009](https://github.com/user-attachments/assets/634dc2d6-aebb-4445-b60f-446381bfce1c)
 
-
+![Aspose Words a24c1642-e5ec-4825-8036-44a419b48d93 010](https://github.com/user-attachments/assets/30788bc9-c695-494f-8765-bdb51477319a)
 **Conclusion ![ref1]**
 
 In this project, we successfully integrated software quality assurance practices into an existing Python project, demonstrating the application of concepts learned throughout the course. By incorporating activities such as security analysis, fuzz testing, forensics integration, and continuous integration using GitHub Actions, we ensured the robustness and reliability of the codebase. The systematic approach and collaborative effort not only enhanced our technical skills but also provided valuable insights into the importance of quality assurance in software development. This project reinforces the significance of integrating SQA practices to achieve reliable, secure, and maintainable software solutions. 
 
-![Aspose Words a24c1642-e5ec-4825-8036-44a419b48d93 010](https://github.com/user-attachments/assets/30788bc9-c695-494f-8765-bdb51477319a)
+
 
