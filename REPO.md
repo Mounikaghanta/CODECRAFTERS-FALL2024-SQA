@@ -9,7 +9,7 @@
 
 **Pavan Kalyan Annadevara- pza0045** 
 
-**Summary: ![ref1]**
+**Summary: **
 
 The goal of this project is to embed software quality assurance practices into an existing  Python  application.  These  efforts  focus  on  improving  the  codebase's reliability,  security,  and  maintainability  by  applying  principles  discussed  in workshops. Key activities included in the project are as follows: 
 
@@ -73,7 +73,7 @@ The objective was accomplished by integrating a Git Hook into the development pr
 
  ![Aspose Words a24c1642-e5ec-4825-8036-44a419b48d93 004](https://github.com/user-attachments/assets/da6a2ea1-ab8a-4ec2-aa75-a7b512c29e85)
 
-**2. Fuzzing: ![ref1]**
+**2. Fuzzing: **
 
 **Creating the fuzz.py File: A Step-by-Step Overview Objective:** 
 
@@ -103,7 +103,7 @@ The primary goal of this task is to develop a Python script named fuzz.py that t
 - Staged the newly created fuzz.py file along with other relevant changes using git add .. 
 - Committed the changes with a concise message to maintain a clear project 
 
-  history. ![ref1]
+  history. 
 
 **GitHub Actions Integration:** 
 
@@ -126,7 +126,7 @@ The primary goal of this task is to develop a Python script named fuzz.py that t
 
 **Task 4.c: Integrating Forensic Capabilities into Python Methods** 
 
-**Objective: ![ref1]**
+**Objective:**
 
 The aim of this task is to enhance five selected Python methods by embedding forensic logging. This integration enables detailed tracking of each method's behavior, including inputs, outputs, and errors. The improvements ensure greater transparency and traceability, facilitating debugging and analysis. 
 
@@ -206,7 +206,8 @@ By implementing forensic logging, the project achieves a new level of robustness
 ![Aspose Words a24c1642-e5ec-4825-8036-44a419b48d93 009](https://github.com/user-attachments/assets/634dc2d6-aebb-4445-b60f-446381bfce1c)
 
 ![Aspose Words a24c1642-e5ec-4825-8036-44a419b48d93 010](https://github.com/user-attachments/assets/30788bc9-c695-494f-8765-bdb51477319a)
-**Conclusion ![ref1]**
+
+**Conclusion**
 
 In this project, we successfully integrated software quality assurance practices into an existing Python project, demonstrating the application of concepts learned throughout the course. By incorporating activities such as security analysis, fuzz testing, forensics integration, and continuous integration using GitHub Actions, we ensured the robustness and reliability of the codebase. The systematic approach and collaborative effort not only enhanced our technical skills but also provided valuable insights into the importance of quality assurance in software development. This project reinforces the significance of integrating SQA practices to achieve reliable, secure, and maintainable software solutions. 
 
