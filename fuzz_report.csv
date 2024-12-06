@@ -1,0 +1,8 @@
+Method,Input,Error
+checkIfParsablePython,non_existent_file.py,[Errno 2] No such file or directory: 'non_existent_file.py'
+checkIfParsablePython,,"expected str, bytes or os.PathLike object, not NoneType"
+checkIfParsablePython,,[Errno 2] No such file or directory: ''
+getFileLength,,"expected str, bytes or os.PathLike object, not NoneType"
+dumpContentIntoFile,null_content.txt,"write() argument must be str, not None"
+dumpContentIntoFile,,File name cannot be empty.
+getPythonCount,,"expected str, bytes or os.PathLike object, not NoneType"
