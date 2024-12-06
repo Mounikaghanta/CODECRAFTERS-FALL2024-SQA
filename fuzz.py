@@ -2,6 +2,7 @@ import os
 import ast
 import pandas as pd
 import numpy as np
+import datetime
 import time
 import datetime
 from unittest.mock import patch
@@ -172,8 +173,8 @@ def fuzz_giveTimeStamp():
 # Save bug reports to a CSV file
 def save_bug_reports():
     if bug_reports:
-        with open("fuzz_report.csv", "w", newline="") as csvfile:
-            fieldnames = ["Method", "Input", "Error"]
+        with open("fuzz_report.csv", "w", newline=","%Y-%m-%d %H:%M:%S"") as csvfile:
+            fieldnames = ["Method", "Input", "Error", "Timestamp"]
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(bug_reports)
